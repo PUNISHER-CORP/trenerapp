@@ -1,0 +1,100 @@
+
+@media (min-width: 1280px) and (max-width: 1400px) {
+    .jcc{
+        justify-content: center;
+    }
+
+    #header{
+        background-size: 120% !important;
+        height: 431px !important;
+        
+        .description-box{
+            margin-top: 70px !important;
+            max-width: 430px;
+        }
+    }
+
+    #how_it_works{
+        
+        .first-part{
+            .description-box{
+                margin-left: 86px;
+    
+                .title{
+                    width: 460px;
+                }
+            }
+        }
+        
+
+        .rectangle{
+            clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
+            height: 500px !important;
+            margin-top: -140px !important;
+        }
+
+        .second-part{
+            margin-top: -230px !important;
+
+            .image-box{
+                margin-left: 86px;
+            }
+        }
+    }
+
+    #progress{
+        background-position: center !important;
+
+        .description-box{
+            margin-left: 86px;
+        }
+    }
+
+    #without_calls_and_sms{
+        .image-box{
+            img{
+                width: 306px !important;
+                height: 250px !important;
+                margin-left: 86px; 
+            }
+        }
+
+        .description-box{
+            .text{
+                max-width: 440px !important;
+            }
+        }
+    }
+
+    #motivation{
+        height: 500px !important;
+        background-position: right center !important;
+        background-size: 125% 100%!important;
+        background-repeat: no-repeat !important;
+
+        .description-box{
+            margin-left: 86px;
+        }
+    }
+
+    #footer{
+        
+        .description-box{
+            margin-left: 86px;
+        }
+
+        .socials{
+            margin-left: 93px;
+        }
+
+        .links-box{
+            margin-left: 93px;
+        }
+
+        .copyrights{
+            margin-left: 93px;
+        }
+
+    }
+    
+}

@@ -1,0 +1,49 @@
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .jcc {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #header {
+    background-size: 120% !important;
+    height: 431px !important; }
+    #header .description-box {
+      margin-top: 70px !important;
+      max-width: 430px; }
+  #how_it_works .first-part .description-box {
+    margin-left: 86px; }
+    #how_it_works .first-part .description-box .title {
+      width: 460px; }
+  #how_it_works .rectangle {
+    -webkit-clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
+            clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
+    height: 500px !important;
+    margin-top: -140px !important; }
+  #how_it_works .second-part {
+    margin-top: -230px !important; }
+    #how_it_works .second-part .image-box {
+      margin-left: 86px; }
+  #progress {
+    background-position: center !important; }
+    #progress .description-box {
+      margin-left: 86px; }
+  #without_calls_and_sms .image-box img {
+    width: 306px !important;
+    height: 250px !important;
+    margin-left: 86px; }
+  #without_calls_and_sms .description-box .text {
+    max-width: 440px !important; }
+  #motivation {
+    height: 500px !important;
+    background-position: right center !important;
+    background-size: 125% 100% !important;
+    background-repeat: no-repeat !important; }
+    #motivation .description-box {
+      margin-left: 86px; }
+  #footer .description-box {
+    margin-left: 86px; }
+  #footer .socials {
+    margin-left: 93px; }
+  #footer .links-box {
+    margin-left: 93px; }
+  #footer .copyrights {
+    margin-left: 93px; } }

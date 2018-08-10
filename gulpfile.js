@@ -10,7 +10,8 @@ var gulp =          require('gulp'),
     connect =       require('gulp-connect'),
     del =           require('del'),
     imagemin =      require('gulp-imagemin'),
-    pngquant =      require('imagemin-pngquant');
+    pngquant =      require('imagemin-pngquant'),
+    replace =       require('gulp-replace');
 
 gulp.task('connect', function() {
   connect.server({
@@ -24,6 +25,7 @@ gulp.task('sass', function(){
   gulp.src('app/scss/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions', '> 1%', 'ie 9'))
+    .pipe( replace( /^[ \t]*\@charset[ \t]+\"UTF\-8\"[ \t]*;/gmi, '' ) )
     .pipe(gulp.dest('app/assets'))
     .pipe(connect.reload())
 });

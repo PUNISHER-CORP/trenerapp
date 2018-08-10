@@ -21,13 +21,6 @@ a.button {
 .z-index-2 {
   z-index: 2; }
 
-#header {
-  background: url("../images/header_bg.png") no-repeat #000;
-  background-size: 100%;
-  height: 500px; }
-  #header .logo-box .logo-description {
-    color: #9B9B9B; }
-
 #header .logo-box, #header_subscription .logo-box, #header_success .logo-box {
   margin-top: 28px;
   display: -webkit-box;
@@ -66,6 +59,15 @@ a.button {
     line-height: 1.1875rem;
     letter-spacing: 0.015em; }
 
+#header {
+  background: url("../images/header_bg.png") no-repeat #000;
+  background-size: 100%;
+  height: 500px; }
+  #header .logo-box .logo-description {
+    color: #9B9B9B; }
+  #header .description-box {
+    max-width: 430px; }
+
 #how_it_works .description-box, #progress .description-box, #without_calls_and_sms .description-box, #motivation .description-box {
   margin-top: 117px; }
   #how_it_works .description-box .title, #progress .description-box .title, #without_calls_and_sms .description-box .title, #motivation .description-box .title {
@@ -89,20 +91,16 @@ a.button {
 
 #how_it_works .first-part .image-box {
   margin-top: 75px; }
-  #how_it_works .first-part .image-box img {
-    max-width: 208px;
-    max-height: 365px; }
-    #how_it_works .first-part .image-box img:nth-child(1) {
-      margin-left: -15px; }
   #how_it_works .first-part .image-box .author {
     margin-top: 13px; }
     #how_it_works .first-part .image-box .author img {
       width: 23px;
       height: 23px; }
     #how_it_works .first-part .image-box .author .name {
+      font-family: 'Roboto-bold';
       margin-left: 6px;
       font-size: 0.875rem;
-      letter-spacing: 0.019em;
+      letter-spacing: 0.009em;
       line-height: 0.900rem;
       color: #000; }
 
@@ -134,6 +132,9 @@ a.button {
     margin-top: 145px; }
     #progress .description-box .title {
       color: #fff; }
+  @media (min-width: 1281px) and (max-width: 1599px) {
+    #progress {
+      background-position: center center; } }
 
 #without_calls_and_sms {
   height: 500px; }

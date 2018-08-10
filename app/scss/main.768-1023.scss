@@ -1,0 +1,71 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .jcc{
+        justify-content: center;
+    }
+    .description-box{
+        text-align: center;
+        margin-top: 150px !important;
+        max-width: 100% !important;
+        .title{
+            max-width: 100% !important;
+            font-size: 2rem !important;
+            line-height: 2.3rem !important;
+        }
+
+        .text{
+            max-width: 100% !important;
+            margin-top: 5px !important;
+            font-size: 0.8rem !important;  
+        }
+    }
+    #header{
+        background-size: 120% 100% !important;
+        background-position: left center !important;
+
+        .description-box{
+            margin-top: 220px !important;
+        }
+    }
+
+    #how_it_works{
+        .justify-content-between{
+            justify-content: center !important;
+        }
+
+        .rectangle{
+            display: none;
+
+        }
+
+        .first-part{
+            .description-box{
+                margin-top: 70px !important;
+            }
+        }
+
+        .second-part{
+            margin-top: 0 !important;
+
+            .description-box{
+                margin-top: 70px !important;
+            }
+        }
+
+        .image-box{
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        
+    }
+
+    #progress{
+        height: 525px !important;
+        background: url(../images/progress-bg-small.png) no-repeat !important;
+
+        .description-box{
+            margin-top: 320px !important;
+        }
+    }
+
+}

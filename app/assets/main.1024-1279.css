@@ -1,0 +1,131 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .jcc {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  #header .description-box .title, #how_it_works .description-box .title {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important; }
+  #header .description-box .text, #how_it_works .description-box .text {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    font-size: 0.85rem !important; }
+  #header .description-box .button, #how_it_works .description-box .button {
+    font-size: 0.9rem !important;
+    line-height: 1.1rem !important;
+    padding: 10px 15px; }
+  #header {
+    height: 400px !important;
+    background-size: 120% !important; }
+    #header .jcc {
+      -webkit-box-pack: justify !important;
+          -ms-flex-pack: justify !important;
+              justify-content: space-between !important; }
+    #header .logo-box {
+      margin-left: 42px; }
+    #header .description-box {
+      margin-top: 70px !important;
+      max-width: 290px !important;
+      margin-left: 42px; }
+  #how_it_works .first-part .description-box {
+    max-width: 320px; }
+    #how_it_works .first-part .description-box .title {
+      font-size: 1.5rem !important;
+      line-height: 1.8rem !important;
+      margin-bottom: 5px; }
+  #how_it_works .second-part {
+    margin-top: -190px !important; }
+    #how_it_works .second-part .image-box img {
+      width: 280px !important;
+      height: 480px !important; }
+    #how_it_works .second-part .description-box {
+      max-width: 450px; }
+      #how_it_works .second-part .description-box .title {
+        font-size: 1.5rem !important;
+        line-height: 1.8rem !important;
+        margin-bottom: 5px; }
+  #how_it_works .rectangle {
+    height: 480px !important; }
+  #how_it_works .justify-content-between {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; }
+  #progress {
+    height: 400px !important;
+    background-position: 35% center !important;
+    background-size: cover !important; }
+    #progress .description-box {
+      margin-top: 127px !important;
+      margin-left: 42px; }
+      #progress .description-box .title {
+        font-size: 1.5rem !important;
+        line-height: 1.8rem !important;
+        margin-bottom: 5px; }
+      #progress .description-box .text {
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        font-size: 0.85rem !important; }
+      #progress .description-box .button {
+        font-size: 0.9rem !important;
+        line-height: 1.1rem !important;
+        padding: 10px 15px; }
+  #without_calls_and_sms {
+    height: 400px !important; }
+    #without_calls_and_sms .image-box {
+      margin-left: 42px; }
+      #without_calls_and_sms .image-box img {
+        width: 330px !important;
+        height: 280px !important; }
+    #without_calls_and_sms .description-box .title {
+      font-size: 1.5rem !important;
+      line-height: 1.8rem !important;
+      margin-bottom: 5px; }
+    #without_calls_and_sms .description-box .text {
+      margin-top: 0 !important;
+      margin-bottom: 20px !important;
+      font-size: 0.85rem !important; }
+    #without_calls_and_sms .description-box .button {
+      font-size: 0.9rem !important;
+      line-height: 1.1rem !important;
+      padding: 10px 15px; }
+  #motivation {
+    height: 400px !important;
+    background-position: right center !important;
+    background-size: cover !important; }
+    #motivation .description-box {
+      margin-top: -10px !important;
+      margin-left: 42px; }
+      #motivation .description-box .title {
+        font-size: 1.5rem !important;
+        line-height: 1.8rem !important;
+        margin-bottom: 5px; }
+      #motivation .description-box .text {
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        font-size: 0.85rem !important; }
+      #motivation .description-box .button {
+        font-size: 0.9rem !important;
+        line-height: 1.1rem !important;
+        padding: 10px 15px; }
+  #footer {
+    height: 555px !important; }
+    #footer .description-box {
+      margin-left: 42px; }
+      #footer .description-box .title {
+        font-size: 1.5rem !important;
+        line-height: 1.8rem !important;
+        margin-bottom: 5px; }
+      #footer .description-box .text {
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        font-size: 0.85rem !important; }
+      #footer .description-box .button {
+        font-size: 0.9rem !important;
+        line-height: 1.1rem !important;
+        padding: 10px 15px; }
+    #footer .hr {
+      margin-top: 65px !important;
+      margin-left: -38px;
+      width: 842px; }
+    #footer .socials, #footer .links-box, #footer .copyrights {
+      margin-left: 42px; } }
