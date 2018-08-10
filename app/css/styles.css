@@ -47,6 +47,48 @@ a.button:hover {
   z-index: 2;
 }
 
+#header {
+  background: url("../images/header_bg.png") no-repeat #000;
+  background-size: 100%;
+  height: 500px;
+}
+
+#header .logo-box .logo-description {
+  color: #9B9B9B;
+}
+
+#header .logo-box,
+#header_subscription .logo-box {
+  margin-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#header .logo-box .logo,
+#header_subscription .logo-box .logo {
+  cursor: pointer;
+}
+
+#header .logo-box .br-r,
+#header_subscription .logo-box .br-r {
+  height: 40px;
+  background: #757575;
+  width: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#header .logo-box .logo-description,
+#header_subscription .logo-box .logo-description {
+  font-size: 0.75rem;
+  line-height: 0.8125rem;
+  letter-spacing: 0.025em;
+}
+
 #header .description-box,
 #footer .description-box {
   margin-top: 111px;
@@ -70,41 +112,6 @@ a.button:hover {
   font-style: 1rem;
   line-height: 1.1875rem;
   letter-spacing: 0.015em;
-}
-
-#header {
-  background: url("../images/header_bg.png") no-repeat #000;
-  background-size: 100%;
-  height: 500px;
-}
-
-#header .logo-box {
-  margin-top: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-#header .logo-box .logo {
-  cursor: pointer;
-}
-
-#header .logo-box .br-r {
-  height: 40px;
-  background: #4b4b4b;
-  width: 1px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
-#header .logo-box .logo-description {
-  font-size: 0.75rem;
-  color: #9B9B9B;
-  line-height: 0.8125rem;
-  letter-spacing: 0.025em;
 }
 
 #how_it_works .description-box,
@@ -374,4 +381,132 @@ a.button:hover {
   font-size: 0.8125rem;
   line-height: 0.875rem;
   letter-spacing: -0.006em;
+}
+@charset "UTF-8";
+
+#header_subscription {
+  height: 335px;
+  background: #CCFF00;
+}
+
+#header_subscription .logo-box .logo-description {
+  color: #000;
+  opacity: 0.5;
+}
+
+#header_subscription .header-title-box {
+  margin-top: 105px;
+}
+
+#header_subscription .header-title-box .title {
+  color: #000;
+  font-size: 3rem;
+  line-height: 3.1875rem;
+  letter-spacing: 0.012em;
+  font-family: 'Roboto-bold';
+}
+
+#header_subscription .header-title-box .description {
+  margin-top: 8px;
+  color: #000;
+  opacity: 0.5;
+  letter-spacing: 0.02em;
+  font-size: 1rem;
+}
+
+#content {
+  background: #fff;
+  height: 480px;
+}
+
+#content .pl-none {
+  padding-right: 0;
+}
+
+#content form {
+  margin-top: 45px;
+}
+
+#content form .form-control {
+  padding: 9px 20px;
+  height: 45px;
+  border-radius: 8px;
+  border-color: #ADADAD;
+  color: #222326;
+  letter-spacing: 0.02em;
+}
+
+#content form .form-control::-webkit-input-placeholder {
+  color: #222326;
+}
+
+#content form .form-control:-ms-input-placeholder {
+  color: #222326;
+}
+
+#content form .form-control::-ms-input-placeholder {
+  color: #222326;
+}
+
+#content form .form-control::placeholder {
+  color: #222326;
+}
+
+#content form label {
+  margin-top: 10px;
+}
+
+#content form label .checkbox {
+  display: none;
+}
+
+#content form label .checkbox-custom {
+  position: relative;
+  top: -1px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ADADAD;
+  border-radius: 4px;
+}
+
+#content form label .checkbox-custom,
+#content form label .label {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#content form label .label {
+  max-width: 390px;
+  color: #4c4c4c;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.02em;
+}
+
+#content form label .checkbox:checked + .checkbox-custom::before {
+  content: "✔";
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: -2px;
+  font-size: 1.1rem;
+}
+
+#content form .button {
+  cursor: pointer;
+  margin-top: 40px;
+  background: #CCFF00;
+  display: block;
+  padding: 12px 44px;
+  font-family: 'Roboto-bold';
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  -webkit-box-shadow: 0px 0.5px 0px #000000;
+  box-shadow: 0px 0.5px 0px #000000;
+  border-radius: 10px;
+  border: none;
+}
+
+.footer_subscription {
+  height: 270px !important;
 }

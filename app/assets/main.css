@@ -21,6 +21,34 @@ a.button {
 .z-index-2 {
   z-index: 2; }
 
+#header {
+  background: url("../images/header_bg.png") no-repeat #000;
+  background-size: 100%;
+  height: 500px; }
+  #header .logo-box .logo-description {
+    color: #9B9B9B; }
+
+#header .logo-box, #header_subscription .logo-box {
+  margin-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #header .logo-box .logo, #header_subscription .logo-box .logo {
+    cursor: pointer; }
+  #header .logo-box .br-r, #header_subscription .logo-box .br-r {
+    height: 40px;
+    background: #757575;
+    width: 1px;
+    margin-right: 15px;
+    margin-left: 15px; }
+  #header .logo-box .logo-description, #header_subscription .logo-box .logo-description {
+    font-size: 0.75rem;
+    line-height: 0.8125rem;
+    letter-spacing: 0.025em; }
+
 #header .description-box, #footer .description-box {
   margin-top: 111px; }
   #header .description-box .title, #footer .description-box .title {
@@ -37,32 +65,6 @@ a.button {
     font-style: 1rem;
     line-height: 1.1875rem;
     letter-spacing: 0.015em; }
-
-#header {
-  background: url("../images/header_bg.png") no-repeat #000;
-  background-size: 100%;
-  height: 500px; }
-  #header .logo-box {
-    margin-top: 28px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    #header .logo-box .logo {
-      cursor: pointer; }
-    #header .logo-box .br-r {
-      height: 40px;
-      background: #4b4b4b;
-      width: 1px;
-      margin-right: 15px;
-      margin-left: 15px; }
-    #header .logo-box .logo-description {
-      font-size: 0.75rem;
-      color: #9B9B9B;
-      line-height: 0.8125rem;
-      letter-spacing: 0.025em; }
 
 #how_it_works .description-box, #progress .description-box, #without_calls_and_sms .description-box, #motivation .description-box {
   margin-top: 117px; }
