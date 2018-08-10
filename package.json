@@ -18,13 +18,20 @@
   "homepage": "https://github.com/PUNISHER-CORP/trenerapp#readme",
   "devDependencies": {
     "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
+    "gulp-concat-js": "^0.1.0",
     "gulp-connect": "^5.5.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
     "gulp-livereload": "^3.8.1",
     "gulp-notify": "^3.2.0",
     "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "imagemin-pngquant": "^6.0.0"
   }
 }
