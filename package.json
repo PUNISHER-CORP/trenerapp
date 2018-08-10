@@ -1,0 +1,30 @@
+{
+  "name": "trener.app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUNISHER-CORP/trenerapp.git"
+  },
+  "author": "Leonid Dobryvechir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUNISHER-CORP/trenerapp/issues"
+  },
+  "homepage": "https://github.com/PUNISHER-CORP/trenerapp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-connect": "^5.5.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

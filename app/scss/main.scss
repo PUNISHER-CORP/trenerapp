@@ -1,0 +1,349 @@
+* {
+    font-family: 'Roboto-medium';
+    font-size: 16px
+}
+
+a.button {
+    font-family: 'Roboto-bold';
+    text-decoration: none;
+    color: #000;
+    background: #CCFF00;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    padding: 15px 23px;
+    border-radius: 10px;
+
+    &:hover{
+        text-decoration: none;
+        color: #363636;
+    }
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.z-index-2{
+    z-index: 2;
+}
+
+#header, #footer{
+    .description-box{
+        margin-top: 111px;
+        
+        .title{
+            color: #fff;
+            font-family: 'Roboto-bold';
+            font-size: 3.75rem;
+            line-height: 3.8125rem;
+            letter-spacing: normal;
+        }
+
+        .text{
+            margin-top: 17px;
+            margin-bottom: 40px;
+            max-width: 430px;
+            color: #969696;
+            font-style: 1rem;
+            line-height: 1.1875rem;
+            letter-spacing: 0.015em;
+        }
+    }
+}
+
+#header{
+    background: url('../images/header_bg.png') no-repeat #000;
+    background-size: 100%;
+    height: 500px;
+
+    .logo-box{
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+
+        .logo{
+            cursor: pointer;
+        }
+
+        .br-r{
+            height: 40px;
+            background: #4b4b4b;
+            width: 1px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        
+        .logo-description{
+            font-size: 0.75rem;
+            color: #9B9B9B;
+            line-height: 0.8125rem;
+            letter-spacing: 0.025em;
+        }
+    }
+}
+
+#how_it_works, #progress, #without_calls_and_sms, #motivation{
+    
+    .description-box{
+        margin-top: 117px;
+        .title{
+            color: #000;
+            font-family: 'Roboto-bold';
+            font-size: 3rem;
+            line-height: 3.1875rem;
+            letter-spacing: 0.012em;
+        }
+
+        .text{
+            max-width: 375px;
+            margin-top: 14px;
+            margin-bottom: 40px;
+            color: #808080;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            letter-spacing: 0.01em;
+        }
+
+        a.button{
+            padding: 10px 20px;
+            box-shadow: 0px 0.5px 0px #000000;
+        }
+    }
+}
+
+#how_it_works{
+    
+    .first-part{
+
+        .image-box{
+            margin-top: 75px;
+            
+            img{
+                max-width: 208px;
+                max-height: 365px;
+                &:nth-child(1){
+                    margin-left: -15px;
+                }
+            }
+
+            .author{
+                margin-top: 13px;
+                
+                img{
+                    width: 23px;
+                    height: 23px;
+                
+                }
+
+                .name{
+                    margin-left: 6px;
+                    font-size: 0.875rem;
+                    letter-spacing: 0.019em;
+                    line-height: 0.900rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .rectangle{
+        margin-top: -208px;
+        width: 100%;
+        height: 600px;
+        background: #CCFF00;
+        clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
+    }
+
+    .second-part{
+        margin-top: -265px;
+        margin-bottom: 115px;
+        .image-box{
+            img{
+                width: 306px;
+                height: 543px;
+            }
+        }
+
+        .description-box{
+            margin-top: 200px;
+            padding-left: 30px;
+
+            .text{
+                max-width: 410px;
+            }
+        }
+    }
+}
+
+#progress{
+    background-color: #000;
+    background: url(../images/progress-bg.png) no-repeat;
+    height: 500px;
+
+    .description-box{
+        margin-top: 145px;
+
+        .title{
+            color: #fff;
+        }
+    }
+}
+
+#without_calls_and_sms{
+    height: 500px;
+
+    .container, .row{
+        height: 100%;
+    }
+    
+    .image-box{
+        img{
+            width: 391px;
+            height: 293px;
+        }
+    }
+
+    .description-box{
+        margin-top: 0;
+        margin-left: 26px;
+
+        .text{
+            max-width: 475px;
+        }
+    }
+}
+
+#motivation{
+    height: 500px;
+    background: url(../images/motivation-bg.png);
+
+    .container, .row{
+        height: 100%;
+    }
+
+    .description-box{
+        margin-top: 0;
+        .title{
+            color: #fff;
+        }
+    }
+}
+
+#coaches{
+    height: 460px;
+
+    .container, .row{
+        height: 100%;
+    }
+
+    .owl-carousel{
+        margin-top: 70px;
+    }
+
+    .card{
+        max-width: 560px;
+        text-align: center;
+        border: none;
+
+        .photo{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+
+            img{
+                border-radius: 50%;
+            }
+            
+        }
+
+        .name{
+            margin-top: 15px;
+            color: #000;
+            font-family: 'Roboto-bold';
+            font-size: 	1.25rem;
+            line-height: 1.3125rem;
+            letter-spacing: 0.019em;
+        }
+
+        .who, a.profile{
+            margin-top: 5px;
+            color: #a7a7a8;
+            font-size: 0.8125rem;
+            line-height: 0.875rem;
+            letter-spacing: 0.020em;
+        }
+
+        .about{
+            margin: 14px auto 32px auto;
+            max-width: 343px;
+            color: #808080;
+            font-size: 0.875rem;
+            line-height: 1rem;
+            letter-spacing: 0.01em;
+        }
+
+        a.profile{
+            border-bottom: 1px solid #a7a7a8;
+            max-width: 170px;
+            margin-left: auto;
+            margin-right: auto;
+
+            &:hover{
+                color: #606060;
+                border-color: #606060;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#footer{
+    height: 700px;
+    background: #000;
+
+    .container{
+        height: 100%;
+    }
+
+    .description-box{
+        margin-top: 80px;
+
+        .text{
+
+        }
+    }
+
+    .hr{
+        margin-top: 110px;
+        height: 1px;
+        background: #696969;
+    }
+
+    .socials{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        a{
+            margin-right: 14px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .links{
+        a{
+            color: #7f7f7f;
+            font-size: 1rem;
+            line-height: 1.3125rem;
+            letter-spacing: 0.02em;
+        }
+    }
+
+    .copyrights{
+        margin-top: 40px;
+        color: #5f5f5f;
+        font-size: 0.8125rem;
+        line-height: 0.875rem;
+        letter-spacing: -0.006em;
+    }
+}

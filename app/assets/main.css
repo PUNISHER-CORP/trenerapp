@@ -1,0 +1,233 @@
+* {
+  font-family: 'Roboto-medium';
+  font-size: 16px; }
+
+a.button {
+  font-family: 'Roboto-bold';
+  text-decoration: none;
+  color: #000;
+  background: #CCFF00;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  padding: 15px 23px;
+  border-radius: 10px; }
+  a.button:hover {
+    text-decoration: none;
+    color: #363636; }
+
+.z-index-1 {
+  z-index: 1; }
+
+.z-index-2 {
+  z-index: 2; }
+
+#header .description-box, #footer .description-box {
+  margin-top: 111px; }
+  #header .description-box .title, #footer .description-box .title {
+    color: #fff;
+    font-family: 'Roboto-bold';
+    font-size: 3.75rem;
+    line-height: 3.8125rem;
+    letter-spacing: normal; }
+  #header .description-box .text, #footer .description-box .text {
+    margin-top: 17px;
+    margin-bottom: 40px;
+    max-width: 430px;
+    color: #969696;
+    font-style: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.015em; }
+
+#header {
+  background: url("../images/header_bg.png") no-repeat #000;
+  background-size: 100%;
+  height: 500px; }
+  #header .logo-box {
+    margin-top: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #header .logo-box .logo {
+      cursor: pointer; }
+    #header .logo-box .br-r {
+      height: 40px;
+      background: #4b4b4b;
+      width: 1px;
+      margin-right: 15px;
+      margin-left: 15px; }
+    #header .logo-box .logo-description {
+      font-size: 0.75rem;
+      color: #9B9B9B;
+      line-height: 0.8125rem;
+      letter-spacing: 0.025em; }
+
+#how_it_works .description-box, #progress .description-box, #without_calls_and_sms .description-box, #motivation .description-box {
+  margin-top: 117px; }
+  #how_it_works .description-box .title, #progress .description-box .title, #without_calls_and_sms .description-box .title, #motivation .description-box .title {
+    color: #000;
+    font-family: 'Roboto-bold';
+    font-size: 3rem;
+    line-height: 3.1875rem;
+    letter-spacing: 0.012em; }
+  #how_it_works .description-box .text, #progress .description-box .text, #without_calls_and_sms .description-box .text, #motivation .description-box .text {
+    max-width: 375px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    color: #808080;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.01em; }
+  #how_it_works .description-box a.button, #progress .description-box a.button, #without_calls_and_sms .description-box a.button, #motivation .description-box a.button {
+    padding: 10px 20px;
+    -webkit-box-shadow: 0px 0.5px 0px #000000;
+            box-shadow: 0px 0.5px 0px #000000; }
+
+#how_it_works .first-part .image-box {
+  margin-top: 75px; }
+  #how_it_works .first-part .image-box img {
+    max-width: 208px;
+    max-height: 365px; }
+    #how_it_works .first-part .image-box img:nth-child(1) {
+      margin-left: -15px; }
+  #how_it_works .first-part .image-box .author {
+    margin-top: 13px; }
+    #how_it_works .first-part .image-box .author img {
+      width: 23px;
+      height: 23px; }
+    #how_it_works .first-part .image-box .author .name {
+      margin-left: 6px;
+      font-size: 0.875rem;
+      letter-spacing: 0.019em;
+      line-height: 0.900rem;
+      color: #000; }
+
+#how_it_works .rectangle {
+  margin-top: -208px;
+  width: 100%;
+  height: 600px;
+  background: #CCFF00;
+  -webkit-clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
+          clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%); }
+
+#how_it_works .second-part {
+  margin-top: -265px;
+  margin-bottom: 115px; }
+  #how_it_works .second-part .image-box img {
+    width: 306px;
+    height: 543px; }
+  #how_it_works .second-part .description-box {
+    margin-top: 200px;
+    padding-left: 30px; }
+    #how_it_works .second-part .description-box .text {
+      max-width: 410px; }
+
+#progress {
+  background-color: #000;
+  background: url(../images/progress-bg.png) no-repeat;
+  height: 500px; }
+  #progress .description-box {
+    margin-top: 145px; }
+    #progress .description-box .title {
+      color: #fff; }
+
+#without_calls_and_sms {
+  height: 500px; }
+  #without_calls_and_sms .container, #without_calls_and_sms .row {
+    height: 100%; }
+  #without_calls_and_sms .image-box img {
+    width: 391px;
+    height: 293px; }
+  #without_calls_and_sms .description-box {
+    margin-top: 0;
+    margin-left: 26px; }
+    #without_calls_and_sms .description-box .text {
+      max-width: 475px; }
+
+#motivation {
+  height: 500px;
+  background: url(../images/motivation-bg.png); }
+  #motivation .container, #motivation .row {
+    height: 100%; }
+  #motivation .description-box {
+    margin-top: 0; }
+    #motivation .description-box .title {
+      color: #fff; }
+
+#coaches {
+  height: 460px; }
+  #coaches .container, #coaches .row {
+    height: 100%; }
+  #coaches .owl-carousel {
+    margin-top: 70px; }
+  #coaches .card {
+    max-width: 560px;
+    text-align: center;
+    border: none; }
+    #coaches .card .photo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto; }
+      #coaches .card .photo img {
+        border-radius: 50%; }
+    #coaches .card .name {
+      margin-top: 15px;
+      color: #000;
+      font-family: 'Roboto-bold';
+      font-size: 1.25rem;
+      line-height: 1.3125rem;
+      letter-spacing: 0.019em; }
+    #coaches .card .who, #coaches .card a.profile {
+      margin-top: 5px;
+      color: #a7a7a8;
+      font-size: 0.8125rem;
+      line-height: 0.875rem;
+      letter-spacing: 0.020em; }
+    #coaches .card .about {
+      margin: 14px auto 32px auto;
+      max-width: 343px;
+      color: #808080;
+      font-size: 0.875rem;
+      line-height: 1rem;
+      letter-spacing: 0.01em; }
+    #coaches .card a.profile {
+      border-bottom: 1px solid #a7a7a8;
+      max-width: 170px;
+      margin-left: auto;
+      margin-right: auto; }
+      #coaches .card a.profile:hover {
+        color: #606060;
+        border-color: #606060;
+        text-decoration: none; }
+
+#footer {
+  height: 700px;
+  background: #000; }
+  #footer .container {
+    height: 100%; }
+  #footer .description-box {
+    margin-top: 80px; }
+  #footer .hr {
+    margin-top: 110px;
+    height: 1px;
+    background: #696969; }
+  #footer .socials {
+    margin-top: 35px;
+    margin-bottom: 35px; }
+    #footer .socials a {
+      margin-right: 14px; }
+      #footer .socials a:hover {
+        text-decoration: none; }
+  #footer .links a {
+    color: #7f7f7f;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.02em; }
+  #footer .copyrights {
+    margin-top: 40px;
+    color: #5f5f5f;
+    font-size: 0.8125rem;
+    line-height: 0.875rem;
+    letter-spacing: -0.006em; }
