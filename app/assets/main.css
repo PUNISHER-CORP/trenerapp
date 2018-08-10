@@ -28,7 +28,7 @@ a.button {
   #header .logo-box .logo-description {
     color: #9B9B9B; }
 
-#header .logo-box, #header_subscription .logo-box {
+#header .logo-box, #header_subscription .logo-box, #header_success .logo-box {
   margin-top: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,15 +36,15 @@ a.button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  #header .logo-box .logo, #header_subscription .logo-box .logo {
+  #header .logo-box .logo, #header_subscription .logo-box .logo, #header_success .logo-box .logo {
     cursor: pointer; }
-  #header .logo-box .br-r, #header_subscription .logo-box .br-r {
+  #header .logo-box .br-r, #header_subscription .logo-box .br-r, #header_success .logo-box .br-r {
     height: 40px;
     background: #757575;
     width: 1px;
     margin-right: 15px;
     margin-left: 15px; }
-  #header .logo-box .logo-description, #header_subscription .logo-box .logo-description {
+  #header .logo-box .logo-description, #header_subscription .logo-box .logo-description, #header_success .logo-box .logo-description {
     font-size: 0.75rem;
     line-height: 0.8125rem;
     letter-spacing: 0.025em; }

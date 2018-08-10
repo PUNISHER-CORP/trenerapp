@@ -58,7 +58,8 @@ a.button:hover {
 }
 
 #header .logo-box,
-#header_subscription .logo-box {
+#header_subscription .logo-box,
+#header_success .logo-box {
   margin-top: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,12 +70,14 @@ a.button:hover {
 }
 
 #header .logo-box .logo,
-#header_subscription .logo-box .logo {
+#header_subscription .logo-box .logo,
+#header_success .logo-box .logo {
   cursor: pointer;
 }
 
 #header .logo-box .br-r,
-#header_subscription .logo-box .br-r {
+#header_subscription .logo-box .br-r,
+#header_success .logo-box .br-r {
   height: 40px;
   background: #757575;
   width: 1px;
@@ -83,7 +86,8 @@ a.button:hover {
 }
 
 #header .logo-box .logo-description,
-#header_subscription .logo-box .logo-description {
+#header_subscription .logo-box .logo-description,
+#header_success .logo-box .logo-description {
   font-size: 0.75rem;
   line-height: 0.8125rem;
   letter-spacing: 0.025em;
@@ -388,21 +392,25 @@ a.button:hover {
 }
 @charset "UTF-8";
 
-#header_subscription {
+#header_subscription,
+#header_success {
   height: 335px;
   background: #CCFF00;
 }
 
-#header_subscription .logo-box .logo-description {
+#header_subscription .logo-box .logo-description,
+#header_success .logo-box .logo-description {
   color: #000;
   opacity: 0.5;
 }
 
-#header_subscription .header-title-box {
+#header_subscription .header-title-box,
+#header_success .header-title-box {
   margin-top: 105px;
 }
 
-#header_subscription .header-title-box .title {
+#header_subscription .header-title-box .title,
+#header_success .header-title-box .title {
   color: #000;
   font-size: 3rem;
   line-height: 3.1875rem;
@@ -410,7 +418,8 @@ a.button:hover {
   font-family: 'Roboto-bold';
 }
 
-#header_subscription .header-title-box .description {
+#header_subscription .header-title-box .description,
+#header_success .header-title-box .description {
   margin-top: 8px;
   color: #000;
   opacity: 0.5;
@@ -513,4 +522,69 @@ a.button:hover {
 
 .footer_subscription {
   height: 270px !important;
+}
+#content .social-box {
+  margin-top: 75px;
+}
+
+#content .social-box .title {
+  max-width: 350px;
+  font-family: 'Roboto-bold';
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+#content .social-box .social-buttons {
+  margin-top: 25px;
+}
+
+#content .social-box .social-buttons a {
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 290px;
+  display: block;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: #fff;
+  font-family: 'Roboto-bold';
+  padding: 12px 0 12px 43px;
+}
+
+#content .social-box .social-buttons a::before {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 9px;
+  left: 11px;
+}
+
+#content .social-box .social-buttons a:hover {
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+#content .social-box .social-buttons a.facebook {
+  background: #3C5997;
+}
+
+#content .social-box .social-buttons a.facebook::before {
+  background: url("../images/facebook.svg");
+}
+
+#content .social-box .social-buttons a.instagram {
+  background-color: #b92774;
+  /* IE9, iOS 3.2+ */
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjEwMCUiIHI9IjE0MS40MjEzNTYyMzczMDk1JSI+PHN0b3Agc3RvcC1jb2xvcj0iI2VlNTQzMiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjZGMyNTRlIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC4zNDgiLz48c3RvcCBzdG9wLWNvbG9yPSIjYjUxMzdmIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41NzkiLz48c3RvcCBzdG9wLWNvbG9yPSIjNjUyM2NjIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==");
+  /* Android 2.3- hack (needed for the actual radial gradient) */
+  /* Android 2.3 */
+  background-image: -webkit-repeating-radial-gradient(left bottom, ellipse farthest-corner, #ee5432 0%, #dc254e 34.8%, #b5137f 57.9%, #6523cc 100%);
+  /* IE10+ */
+  background-image: repeating-radial-gradient(ellipse farthest-corner at left bottom, #ee5432 0%, #dc254e 34.8%, #b5137f 57.9%, #6523cc 100%);
+  background-image: -ms-repeating-radial-gradient(left bottom, ellipse farthest-corner, #ee5432 0%, #dc254e 34.8%, #b5137f 57.9%, #6523cc 100%);
+}
+
+#content .social-box .social-buttons a.instagram::before {
+  background: url("../images/instagram.svg");
 }
