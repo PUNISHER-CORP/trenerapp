@@ -1,8 +1,9 @@
 @media (min-width: 768px) and (max-width: 1023px) {
-    .jcc{
+    .jcc, .jcc-768{
         justify-content: center;
     }
     .description-box{
+        margin-left: 0 !important;
         text-align: center;
         margin-top: 150px !important;
         max-width: 100% !important;
@@ -47,6 +48,7 @@
             margin-top: 0 !important;
 
             .description-box{
+                padding-left: 0px !important;
                 margin-top: 70px !important;
             }
         }
@@ -62,9 +64,32 @@
     #progress{
         height: 525px !important;
         background: url(../images/progress-bg-small.png) no-repeat !important;
+        background-size: cover !important;
 
         .description-box{
             margin-top: 320px !important;
+        }
+    }
+
+    #without_calls_and_sms{
+        height: 650px !important;
+        
+        .image-box{
+            margin: 0 auto 0 auto;
+        }
+
+        .description-box{
+            
+            margin-top: 0px !important;
+        }
+    }
+
+    #motivation{
+        background-size: cover !important;
+        background-position: right center !important;
+
+        .description-box{
+            margin-top: 240px !important;
         }
     }
 

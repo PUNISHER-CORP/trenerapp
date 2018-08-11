@@ -55,7 +55,6 @@ a.button {
     margin-bottom: 40px;
     max-width: 430px;
     color: #969696;
-    font-style: 1rem;
     line-height: 1.1875rem;
     letter-spacing: 0.015em; }
 
@@ -132,9 +131,6 @@ a.button {
     margin-top: 145px; }
     #progress .description-box .title {
       color: #fff; }
-  @media (min-width: 1281px) and (max-width: 1599px) {
-    #progress {
-      background-position: center center; } }
 
 #without_calls_and_sms {
   height: 500px; }

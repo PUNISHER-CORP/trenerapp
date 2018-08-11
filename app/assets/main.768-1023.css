@@ -1,9 +1,10 @@
 @media (min-width: 768px) and (max-width: 1023px) {
-  .jcc {
+  .jcc, .jcc-768 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
   .description-box {
+    margin-left: 0 !important;
     text-align: center;
     margin-top: 150px !important;
     max-width: 100% !important; }
@@ -31,12 +32,25 @@
   #how_it_works .second-part {
     margin-top: 0 !important; }
     #how_it_works .second-part .description-box {
+      padding-left: 0px !important;
       margin-top: 70px !important; }
   #how_it_works .image-box {
     margin-top: 80px;
     text-align: center; }
   #progress {
     height: 525px !important;
-    background: url(../images/progress-bg-small.png) no-repeat !important; }
+    background: url(../images/progress-bg-small.png) no-repeat !important;
+    background-size: cover !important; }
     #progress .description-box {
-      margin-top: 320px !important; } }
+      margin-top: 320px !important; }
+  #without_calls_and_sms {
+    height: 650px !important; }
+    #without_calls_and_sms .image-box {
+      margin: 0 auto 0 auto; }
+    #without_calls_and_sms .description-box {
+      margin-top: 0px !important; }
+  #motivation {
+    background-size: cover !important;
+    background-position: right center !important; }
+    #motivation .description-box {
+      margin-top: 240px !important; } }

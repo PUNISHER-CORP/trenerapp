@@ -1,0 +1,278 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .description-box{
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+        margin-left: 0 !important;
+        a.button{
+            padding-top: 11px !important;
+            padding-bottom: 11px !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            display: block;
+            text-align: center;
+        }
+    }
+
+    // Description-box styles
+    #how_it_works, #without_calls_and_sms, #progress, #motivation{
+        .description-box{
+            text-align: center;
+            .title{
+                font-size: 1.4375rem !important;
+                line-height: 1.5rem !important;
+                letter-spacing: 0.019em;
+            }
+
+            .text{
+                font-size: 0.875rem !important;
+                line-height: 1rem !important;
+                letter-spacing: 0.01em;
+                margin-bottom: 18px !important;
+            }
+        }
+    }
+
+    #header{
+        background: url(../images/header_bg-small.png) no-repeat !important;
+        height: 525px !important;
+        background-size:  cover !important;
+
+        .logo-box{
+            padding-left: 9px;
+            margin-top: 23px !important;
+            
+            .br-r, .logo-description{
+                display: none;
+            }
+            
+            .logo{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+
+        .description-box{
+            margin-top: 200px !important;
+            
+            .title{
+                font-size: 2.875rem !important;
+                line-height: 2.9375rem !important;
+            }
+
+            .text{
+                margin-top: 10px !important;
+                margin-bottom: 26px !important;
+                font-size: 1rem !important;
+                line-height: 1.1875rem !important;
+                max-width: 285px !important;
+                letter-spacing: 0.040em !important;
+            }
+
+        }
+    }
+
+    #how_it_works{
+        
+        .justify-content-between{
+            justify-content: center !important;
+        }
+        
+        .rectangle{
+            display: none;
+        }
+        .first-part{
+
+            .description-box{
+                margin-top: 42px !important;
+            }
+
+            .image-box{
+                margin-top: 40px !important;
+
+                img{
+                    max-width: 325px !important;
+                }
+
+                .author{
+                    .name{
+                        font-size: 0.625rem !important;
+                        line-height: 0.6875rem !important;
+                        letter-spacing: 0.019em !important;
+                    }
+                    img{
+                        width: 17px !important;
+                        height: 17px !important;
+                    }
+                }
+            }
+        }
+
+        .second-part{
+            margin-top: 57px !important;
+            margin-bottom: 55px !important;
+
+            .image-box{
+                margin-top: 0 !important;
+                text-align: center;
+
+                img{
+                    border: 1px solid #DDDDDD;
+                    width: 247px !important;
+                    height: 438px !important;
+                }
+            }
+
+            .description-box{
+                margin-top: 40px !important;
+            }
+        }
+    }
+
+    #progress{
+        height: 525px !important;
+        background: url(../images/progress-bg-xs.png) no-repeat !important;
+        background-size: cover !important;
+
+        .description-box{
+            margin-top: 320px !important;
+
+            .text{
+                margin-bottom: 25px !important;
+            }
+        }
+    }
+
+    #without_calls_and_sms{
+        height: 545px !important;
+
+        .align-items-center{
+            align-items: flex-start !important;
+        }
+        
+        .image-box{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 44px;
+            img{
+                max-width: 325px !important;
+                max-height: 240px !important;
+            }
+        }
+
+        .description-box{
+            margin-top: -15px !important;
+        }
+    }
+
+    #motivation{
+        height: 390px !important;
+        background: url(../images/motivation-bg-xs.png) no-repeat !important;
+        background-size:  cover !important;
+
+        .description-box{
+            margin-top: 145px !important;
+
+            .text{
+                margin-top: 15px !important;
+                margin-bottom: 26px !important;
+            }
+        }
+    }
+
+    #coaches{
+        height: 400px !important;
+
+        .owl-carousel{
+            margin-top: 50px !important;
+        }
+
+        .owl-dots{
+            margin-top: 38px !important;
+        }
+
+        .card{
+            padding: 0 9px;
+        }
+    }
+
+    #footer{
+        height: 100% !important;
+
+        .description-box{
+            margin-top: 36px !important;
+
+            .title{
+                font-size: 2.5rem !important;
+                line-height: 2.5625rem !important;
+            }
+
+            .text{
+                margin-bottom: 24px !important;
+            }
+        }
+
+        .mt-15{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .hr{
+            margin-top: 25px !important;
+            
+        }
+
+        .socials{
+            margin-bottom: 32px !important;
+        }
+
+        .socials, .links-box, .copyrights{
+            padding-left: 9px;
+            padding-right: 9px;
+        }
+
+        .copyrights{
+            margin-bottom: 17px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    #header, #footer{
+        
+        .description-box{
+            
+            .title{
+                font-size: 2rem !important;
+                line-height: 2.2rem !important;
+            }
+        }
+
+        .copyrights{
+            font-size: 0.7rem !important;
+        }
+
+    }
+
+    #how_it_works{
+        
+        .first-part{
+            
+            .image-box{
+                img{
+                    max-width: 290px !important ;
+                }
+            }
+        }
+    }
+
+    #without_calls_and_sms{
+        .image-box{
+            img{
+                max-width: 290px !important;
+            }
+        }
+    }
+}

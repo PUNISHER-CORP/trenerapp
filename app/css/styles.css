@@ -317,14 +317,282 @@
     margin-left: 93px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .description-box {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+    margin-left: 0 !important;
+  }
+
+  .description-box a.button {
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: block;
+    text-align: center;
+  }
+
+  #how_it_works .description-box,
+  #without_calls_and_sms .description-box,
+  #progress .description-box,
+  #motivation .description-box {
+    text-align: center;
+  }
+
+  #how_it_works .description-box .title,
+  #without_calls_and_sms .description-box .title,
+  #progress .description-box .title,
+  #motivation .description-box .title {
+    font-size: 1.4375rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: 0.019em;
+  }
+
+  #how_it_works .description-box .text,
+  #without_calls_and_sms .description-box .text,
+  #progress .description-box .text,
+  #motivation .description-box .text {
+    font-size: 0.875rem !important;
+    line-height: 1rem !important;
+    letter-spacing: 0.01em;
+    margin-bottom: 18px !important;
+  }
+
+  #header {
+    background: url("../images/header_bg-small.png") no-repeat !important;
+    height: 525px !important;
+    background-size: cover !important;
+  }
+
+  #header .logo-box {
+    padding-left: 9px;
+    margin-top: 23px !important;
+  }
+
+  #header .logo-box .br-r,
+  #header .logo-box .logo-description {
+    display: none;
+  }
+
+  #header .logo-box .logo img {
+    width: 150px;
+  }
+
+  #header .description-box {
+    margin-top: 200px !important;
+  }
+
+  #header .description-box .title {
+    font-size: 2.875rem !important;
+    line-height: 2.9375rem !important;
+  }
+
+  #header .description-box .text {
+    margin-top: 10px !important;
+    margin-bottom: 26px !important;
+    font-size: 1rem !important;
+    line-height: 1.1875rem !important;
+    max-width: 285px !important;
+    letter-spacing: 0.040em !important;
+  }
+
+  #how_it_works .justify-content-between {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+
+  #how_it_works .rectangle {
+    display: none;
+  }
+
+  #how_it_works .first-part .description-box {
+    margin-top: 42px !important;
+  }
+
+  #how_it_works .first-part .image-box {
+    margin-top: 40px !important;
+  }
+
+  #how_it_works .first-part .image-box img {
+    max-width: 325px !important;
+  }
+
+  #how_it_works .first-part .image-box .author .name {
+    font-size: 0.625rem !important;
+    line-height: 0.6875rem !important;
+    letter-spacing: 0.019em !important;
+  }
+
+  #how_it_works .first-part .image-box .author img {
+    width: 17px !important;
+    height: 17px !important;
+  }
+
+  #how_it_works .second-part {
+    margin-top: 57px !important;
+    margin-bottom: 55px !important;
+  }
+
+  #how_it_works .second-part .image-box {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+
+  #how_it_works .second-part .image-box img {
+    border: 1px solid #DDDDDD;
+    width: 247px !important;
+    height: 438px !important;
+  }
+
+  #how_it_works .second-part .description-box {
+    margin-top: 40px !important;
+  }
+
+  #progress {
+    height: 525px !important;
+    background: url("../images/progress-bg-xs.png") no-repeat !important;
+    background-size: cover !important;
+  }
+
+  #progress .description-box {
+    margin-top: 320px !important;
+  }
+
+  #progress .description-box .text {
+    margin-bottom: 25px !important;
+  }
+
+  #without_calls_and_sms {
+    height: 545px !important;
+  }
+
+  #without_calls_and_sms .align-items-center {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
+
+  #without_calls_and_sms .image-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+  }
+
+  #without_calls_and_sms .image-box img {
+    max-width: 325px !important;
+    max-height: 240px !important;
+  }
+
+  #without_calls_and_sms .description-box {
+    margin-top: -15px !important;
+  }
+
+  #motivation {
+    height: 390px !important;
+    background: url("../images/motivation-bg-xs.png") no-repeat !important;
+    background-size: cover !important;
+  }
+
+  #motivation .description-box {
+    margin-top: 145px !important;
+  }
+
+  #motivation .description-box .text {
+    margin-top: 15px !important;
+    margin-bottom: 26px !important;
+  }
+
+  #coaches {
+    height: 400px !important;
+  }
+
+  #coaches .owl-carousel {
+    margin-top: 50px !important;
+  }
+
+  #coaches .owl-dots {
+    margin-top: 38px !important;
+  }
+
+  #coaches .card {
+    padding: 0 9px;
+  }
+
+  #footer {
+    height: 100% !important;
+  }
+
+  #footer .description-box {
+    margin-top: 36px !important;
+  }
+
+  #footer .description-box .title {
+    font-size: 2.5rem !important;
+    line-height: 2.5625rem !important;
+  }
+
+  #footer .description-box .text {
+    margin-bottom: 24px !important;
+  }
+
+  #footer .mt-15 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #footer .hr {
+    margin-top: 25px !important;
+  }
+
+  #footer .socials {
+    margin-bottom: 32px !important;
+  }
+
+  #footer .socials,
+  #footer .links-box,
+  #footer .copyrights {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  #footer .copyrights {
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  #header .description-box .title,
+  #footer .description-box .title {
+    font-size: 2rem !important;
+    line-height: 2.2rem !important;
+  }
+
+  #header .copyrights,
+  #footer .copyrights {
+    font-size: 0.7rem !important;
+  }
+
+  #how_it_works .first-part .image-box img {
+    max-width: 290px !important;
+  }
+
+  #without_calls_and_sms .image-box img {
+    max-width: 290px !important;
+  }
+}
 @media (min-width: 768px) and (max-width: 1023px) {
-  .jcc {
+  .jcc,
+  .jcc-768 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
 
   .description-box {
+    margin-left: 0 !important;
     text-align: center;
     margin-top: 150px !important;
     max-width: 100% !important;
@@ -370,6 +638,7 @@
   }
 
   #how_it_works .second-part .description-box {
+    padding-left: 0px !important;
     margin-top: 70px !important;
   }
 
@@ -381,10 +650,32 @@
   #progress {
     height: 525px !important;
     background: url("../images/progress-bg-small.png") no-repeat !important;
+    background-size: cover !important;
   }
 
   #progress .description-box {
     margin-top: 320px !important;
+  }
+
+  #without_calls_and_sms {
+    height: 650px !important;
+  }
+
+  #without_calls_and_sms .image-box {
+    margin: 0 auto 0 auto;
+  }
+
+  #without_calls_and_sms .description-box {
+    margin-top: 0px !important;
+  }
+
+  #motivation {
+    background-size: cover !important;
+    background-position: right center !important;
+  }
+
+  #motivation .description-box {
+    margin-top: 240px !important;
   }
 }
 * {
@@ -472,7 +763,6 @@ a.button:hover {
   margin-bottom: 40px;
   max-width: 430px;
   color: #969696;
-  font-style: 1rem;
   line-height: 1.1875rem;
   letter-spacing: 0.015em;
 }
@@ -593,12 +883,6 @@ a.button:hover {
 
 #progress .description-box .title {
   color: #fff;
-}
-
-@media (min-width: 1281px) and (max-width: 1599px) {
-  #progress {
-    background-position: center center;
-  }
 }
 
 #without_calls_and_sms {
