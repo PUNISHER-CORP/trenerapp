@@ -6,7 +6,8 @@
     color: #000;
     opacity: 0.5; }
   #header_subscription .header-title-box, #header_success .header-title-box {
-    margin-top: 105px; }
+    margin-top: 105px;
+    max-width: 400px; }
     #header_subscription .header-title-box .title, #header_success .header-title-box .title {
       color: #000;
       font-size: 3rem;
@@ -26,7 +27,8 @@
   #content .pl-none {
     padding-right: 0; }
   #content form {
-    margin-top: 45px; }
+    margin-top: 45px;
+    max-width: 430px; }
     #content form .form-control {
       padding: 9px 20px;
       height: 45px;

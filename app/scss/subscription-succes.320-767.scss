@@ -1,0 +1,116 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    #header_subscription, #header_success{
+        height: 100% !important;
+
+        .logo-box{
+            margin-top: 21px !important;
+            padding-left: 9px;
+            .br-r, .logo-description{
+                display: none;
+            }
+
+            .logo{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+
+        .header-title-box{
+            max-width: 244px !important;
+            padding-left: 9px;
+            margin-top: 55px !important;
+
+            .title{
+                font-size: 1.4375rem !important;
+                line-height: 1.5rem !important;
+                letter-spacing: 0.019em !important;
+            }
+
+            .description{
+                font-size: 1rem !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    #header_success{
+
+        .header-title-box{
+            margin-top: 80px !important;
+        }
+    }
+
+    #content{
+        height: 100% !important;
+        .pl-none{
+            padding-right: 15px !important;
+        }
+
+        form{
+            margin-top: 28px !important;
+            padding-left: 9px;
+            padding-right: 9px;
+
+            .label{
+                max-width: 295px !important;
+                margin-top: 4px;
+            }
+
+            .checkbox-custom{
+                top: -17px !important;
+            }
+
+            .button{
+                margin-top: 16px !important;
+                display: block !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                width: 100%;
+                margin-bottom: 115px;
+            }
+        }
+
+        .social-box{
+            margin-top: 24px !important;
+            padding-left: 9px;
+            padding-right: 9px;
+
+            .title{
+                font-size: 1.4375rem !important;
+                line-height: 1.5rem !important;
+                letter-spacing: 0.019em !important;
+            }
+
+            .social-buttons{
+                margin-bottom: 118px;
+
+                a{
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+
+    #footer{
+        h100
+        .socials{
+            margin-top: 18px !important;
+        }
+
+        .socials, .links-box, .copyrights{
+            padding-left: 22px !important;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+
+    .social-buttons{
+        a{
+            font-size: 1rem !important;
+        }
+        
+    }
+}

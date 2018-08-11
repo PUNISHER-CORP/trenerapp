@@ -1045,6 +1045,123 @@ a.button:hover {
   line-height: 0.875rem;
   letter-spacing: -0.006em;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  #header_subscription,
+  #header_success {
+    height: 100% !important;
+  }
+
+  #header_subscription .logo-box,
+  #header_success .logo-box {
+    margin-top: 21px !important;
+    padding-left: 9px;
+  }
+
+  #header_subscription .logo-box .br-r,
+  #header_subscription .logo-box .logo-description,
+  #header_success .logo-box .br-r,
+  #header_success .logo-box .logo-description {
+    display: none;
+  }
+
+  #header_subscription .logo-box .logo img,
+  #header_success .logo-box .logo img {
+    width: 150px;
+  }
+
+  #header_subscription .header-title-box,
+  #header_success .header-title-box {
+    max-width: 244px !important;
+    padding-left: 9px;
+    margin-top: 55px !important;
+  }
+
+  #header_subscription .header-title-box .title,
+  #header_success .header-title-box .title {
+    font-size: 1.4375rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: 0.019em !important;
+  }
+
+  #header_subscription .header-title-box .description,
+  #header_success .header-title-box .description {
+    font-size: 1rem !important;
+    margin-bottom: 30px;
+  }
+
+  #header_success .header-title-box {
+    margin-top: 80px !important;
+  }
+
+  #content {
+    height: 100% !important;
+  }
+
+  #content .pl-none {
+    padding-right: 15px !important;
+  }
+
+  #content form {
+    margin-top: 28px !important;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  #content form .label {
+    max-width: 295px !important;
+    margin-top: 4px;
+  }
+
+  #content form .checkbox-custom {
+    top: -17px !important;
+  }
+
+  #content form .button {
+    margin-top: 16px !important;
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    margin-bottom: 115px;
+  }
+
+  #content .social-box {
+    margin-top: 24px !important;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  #content .social-box .title {
+    font-size: 1.4375rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: 0.019em !important;
+  }
+
+  #content .social-box .social-buttons {
+    margin-bottom: 118px;
+  }
+
+  #content .social-box .social-buttons a {
+    max-width: 100% !important;
+  }
+
+  #footer h100
+.socials {
+    margin-top: 18px !important;
+  }
+
+  #footer .socials,
+  #footer .links-box,
+  #footer .copyrights {
+    padding-left: 22px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .social-buttons a {
+    font-size: 1rem !important;
+  }
+}
 #header_subscription,
 #header_success {
   height: 335px;
@@ -1060,6 +1177,7 @@ a.button:hover {
 #header_subscription .header-title-box,
 #header_success .header-title-box {
   margin-top: 105px;
+  max-width: 400px;
 }
 
 #header_subscription .header-title-box .title,
@@ -1091,6 +1209,7 @@ a.button:hover {
 
 #content form {
   margin-top: 45px;
+  max-width: 430px;
 }
 
 #content form .form-control {
