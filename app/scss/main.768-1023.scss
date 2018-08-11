@@ -43,6 +43,11 @@
                 margin-top: 70px !important;
             }
         }
+        
+        .image-box{
+            margin-top: 80px;
+            text-align: center;
+        }
 
         .second-part{
             margin-top: 0 !important;
@@ -51,12 +56,15 @@
                 padding-left: 0px !important;
                 margin-top: 70px !important;
             }
+
+            .image-box{
+                max-width: 306px;
+                margin-right: auto;
+                margin-left: auto;
+            }
         }
 
-        .image-box{
-            margin-top: 80px;
-            text-align: center;
-        }
+       
 
         
     }

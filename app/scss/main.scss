@@ -163,9 +163,69 @@ a.button {
         margin-top: -265px;
         margin-bottom: 115px;
         .image-box{
+            position: relative;
+            
             img{
                 width: 306px;
                 height: 543px;
+                border: 1px solid #DDDDDD;
+            }
+
+            .slider{
+                position: absolute;
+                top: 0;
+                left: 3px;
+                width: 300px;
+
+                .slider-nav{
+                    position: relative;
+                    top: 145px;
+                    text-align: center;
+                    color: #9b9b9b;
+
+
+                    p.slider-nav-link{
+                        font-size: 0.70rem;
+                        font-family: 'Roboto-bold';
+                        text-transform: uppercase;
+                        margin-right: 12px;
+                        display: inline-block;
+
+                        &:hover{
+                            text-decoration: none;
+                            cursor: pointer;
+                            color:#000;
+                        }
+                    }
+                    
+                    .active{
+                        border-bottom: 2px solid #000;
+                        color:#000;
+                        
+                    }
+                }
+
+                .slides-box{
+                    height: 360px;
+                    width: 100%;
+                    background: #000;
+                    position: relative;
+                    top: 140px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    overflow: hidden;
+
+                    
+
+                    .slide{
+                        img{
+                            width: 300px;
+                            height: 100%;
+                            border: none;
+                        }
+                    }
+                }
             }
         }
 

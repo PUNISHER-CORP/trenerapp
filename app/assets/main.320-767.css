@@ -68,7 +68,25 @@
     margin-bottom: 55px !important; }
     #how_it_works .second-part .image-box {
       margin-top: 0 !important;
-      text-align: center; }
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 247px !important; }
+      #how_it_works .second-part .image-box .slider {
+        max-width: 247px !important;
+        height: 438px;
+        width: 241px !important; }
+        #how_it_works .second-part .image-box .slider .slider-nav {
+          top: 118px !important; }
+          #how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link {
+            font-size: 0.6rem !important;
+            margin-right: 6px !important; }
+        #how_it_works .second-part .image-box .slider .slides-box {
+          height: 274px !important;
+          width: 241px !important;
+          top: 122px !important; }
+          #how_it_works .second-part .image-box .slider .slides-box .slide img {
+            height: 100% !important; }
       #how_it_works .second-part .image-box img {
         border: 1px solid #DDDDDD;
         width: 247px !important;

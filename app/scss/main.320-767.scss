@@ -116,7 +116,35 @@
             .image-box{
                 margin-top: 0 !important;
                 text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 247px !important;
 
+                .slider{
+                    max-width: 247px !important;
+                    height: 438px;
+                    width: 241px !important;
+
+                    .slider-nav{
+                        top: 118px !important;
+
+                        p.slider-nav-link{
+                            font-size: 0.6rem !important;
+                            margin-right: 6px !important;
+                        }
+                    }
+
+                    .slides-box{
+                        height: 274px !important;
+                        width: 241px !important;
+                        top: 122px !important;
+                        .slide{
+                            img{
+                                height: 100% !important;
+                            }
+                        }
+                    }
+                }
                 img{
                     border: 1px solid #DDDDDD;
                     width: 247px !important;
@@ -265,6 +293,11 @@
                     max-width: 290px !important ;
                 }
             }
+        }
+
+        .second-part{
+            
+            
         }
     }
 

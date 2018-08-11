@@ -80,7 +80,7 @@
     margin-top: -190px !important;
   }
 
-  #how_it_works .second-part .image-box img {
+  #how_it_works .second-part .image-box img.slide-box {
     width: 280px !important;
     height: 480px !important;
   }
@@ -439,6 +439,34 @@
   #how_it_works .second-part .image-box {
     margin-top: 0 !important;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 247px !important;
+  }
+
+  #how_it_works .second-part .image-box .slider {
+    max-width: 247px !important;
+    height: 438px;
+    width: 241px !important;
+  }
+
+  #how_it_works .second-part .image-box .slider .slider-nav {
+    top: 118px !important;
+  }
+
+  #how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link {
+    font-size: 0.6rem !important;
+    margin-right: 6px !important;
+  }
+
+  #how_it_works .second-part .image-box .slider .slides-box {
+    height: 274px !important;
+    width: 241px !important;
+    top: 122px !important;
+  }
+
+  #how_it_works .second-part .image-box .slider .slides-box .slide img {
+    height: 100% !important;
   }
 
   #how_it_works .second-part .image-box img {
@@ -633,6 +661,11 @@
     margin-top: 70px !important;
   }
 
+  #how_it_works .image-box {
+    margin-top: 80px;
+    text-align: center;
+  }
+
   #how_it_works .second-part {
     margin-top: 0 !important;
   }
@@ -642,9 +675,10 @@
     margin-top: 70px !important;
   }
 
-  #how_it_works .image-box {
-    margin-top: 80px;
-    text-align: center;
+  #how_it_works .second-part .image-box {
+    max-width: 306px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #progress {
@@ -857,9 +891,71 @@ a.button:hover {
   margin-bottom: 115px;
 }
 
+#how_it_works .second-part .image-box {
+  position: relative;
+}
+
 #how_it_works .second-part .image-box img {
   width: 306px;
   height: 543px;
+  border: 1px solid #DDDDDD;
+}
+
+#how_it_works .second-part .image-box .slider {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 300px;
+}
+
+#how_it_works .second-part .image-box .slider .slider-nav {
+  position: relative;
+  top: 145px;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+#how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link {
+  font-size: 0.70rem;
+  font-family: 'Roboto-bold';
+  text-transform: uppercase;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+#how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+#how_it_works .second-part .image-box .slider .slider-nav .active {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+#how_it_works .second-part .image-box .slider .slides-box {
+  height: 360px;
+  width: 100%;
+  background: #000;
+  position: relative;
+  top: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#how_it_works .second-part .image-box .slider .slides-box .slide img {
+  width: 300px;
+  height: 100%;
+  border: none;
 }
 
 #how_it_works .second-part .description-box {

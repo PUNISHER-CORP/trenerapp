@@ -35,7 +35,7 @@
       margin-bottom: 5px; }
   #how_it_works .second-part {
     margin-top: -190px !important; }
-    #how_it_works .second-part .image-box img {
+    #how_it_works .second-part .image-box img.slide-box {
       width: 280px !important;
       height: 480px !important; }
     #how_it_works .second-part .description-box {
