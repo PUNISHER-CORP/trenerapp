@@ -64,7 +64,7 @@ gulp.task('default', ['connect', 'html', 'watch']);
 //build
 
 gulp.task('scripts', function(){
-  return gulp.src(['app/js/jquery-3.3.1.min.js', 'app/js/bootstrap.js', 'app/js/owl.carousel.min.js',])
+  return gulp.src(['app/js/jquery-3.3.1.min.js', 'app/js/bootstrap.js', 'app/js/owl.carousel.min.js', 'app/js/jquery.touchSwipe.min.js'])
   .pipe(concat('libs.min.js'))
   .pipe(uglify())
   .pipe(gulp.dest('app/js'));
