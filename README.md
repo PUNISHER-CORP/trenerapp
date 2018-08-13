@@ -1,2 +1,2 @@
 # trenerapp
-![alt text](desctop1920.png)
+![alt text](desctop1920.jpg)
