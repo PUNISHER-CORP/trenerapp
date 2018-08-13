@@ -267,6 +267,10 @@ a.button {
       margin-right: 0.875rem; }
       #footer .socials a:hover {
         text-decoration: none; }
+    #footer .socials .icon-facebook, #footer .socials .icon-instagram {
+      font-size: 1.55rem;
+      vertical-align: middle;
+      color: #fff; }
   #footer .links a {
     color: #7f7f7f;
     font-size: 1rem;

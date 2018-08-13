@@ -7,6 +7,13 @@
     line-height: 1.75rem; }
   #content .social-box .social-buttons {
     margin-top: 1.5625rem; }
+    #content .social-box .social-buttons .icon-instagram, #content .social-box .social-buttons .icon-facebook {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 0.625rem;
+      left: 0.6875rem; }
+    #content .social-box .social-buttons .icon-instagram {
+      left: 0.68rem; }
     #content .social-box .social-buttons a {
       position: relative;
       border-radius: 0.625rem;
@@ -17,21 +24,12 @@
       line-height: 1.3125rem;
       color: #fff;
       font-family: 'Roboto-bold';
-      padding: 0.75rem 0 0.75rem 2.6875rem; }
-      #content .social-box .social-buttons a::before {
-        content: '';
-        position: absolute;
-        width: 1.625rem;
-        height: 1.5625rem;
-        top: 0.5625rem;
-        left: 0.6875rem; }
+      padding: 0.75rem 0 0.75rem 2.8875rem; }
       #content .social-box .social-buttons a:hover {
         text-decoration: none;
         color: #dcdcdc; }
     #content .social-box .social-buttons a.facebook {
       background: #3C5997; }
-      #content .social-box .social-buttons a.facebook::before {
-        background: url(../images/facebook.svg); }
     #content .social-box .social-buttons a.instagram {
       background-color: #b92774;
       /* IE9, iOS 3.2+ */
@@ -42,5 +40,3 @@
       /* IE10+ */
       background-image: repeating-radial-gradient(ellipse farthest-corner at left bottom, #ee5432 0%, #dc254e 34.8%, #b5137f 57.9%, #6523cc 100%);
       background-image: -ms-repeating-radial-gradient(left bottom, ellipse farthest-corner, #ee5432 0%, #dc254e 34.8%, #b5137f 57.9%, #6523cc 100%); }
-      #content .social-box .social-buttons a.instagram::before {
-        background: url(../images/instagram.svg); }
