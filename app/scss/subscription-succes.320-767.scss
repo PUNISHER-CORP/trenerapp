@@ -4,33 +4,33 @@
         height: 100% !important;
 
         .logo-box{
-            margin-top: 21px !important;
-            padding-left: 9px;
+            margin-top: 1.3125rem !important;
+            padding-left: 0.5625rem;
             .br-r, .logo-description{
                 display: none;
             }
 
             .logo{
                 img{
-                    width: 150px;
+                    width: 9.375rem;
                 }
             }
         }
 
         .header-title-box{
-            max-width: 244px !important;
-            padding-left: 9px;
-            margin-top: 55px !important;
+            max-width: 15.25rem !important;
+            padding-left: 0.5625rem;
+            margin-top: 3.4375rem !important;
 
             .title{
                 font-size: 1.4375rem !important;
                 line-height: 1.5rem !important;
-                letter-spacing: 0.019em !important;
+                letter-spacing: 0.019rem !important;
             }
 
             .description{
                 font-size: 1rem !important;
-                margin-bottom: 30px;
+                margin-bottom: 1.875rem;
             }
         }
     }
@@ -38,53 +38,53 @@
     #header_success{
 
         .header-title-box{
-            margin-top: 80px !important;
+            margin-top: 5rem !important;
         }
     }
 
     #content{
         height: 100% !important;
         .pl-none{
-            padding-right: 15px !important;
+            padding-right: 0.3125rem !important;
         }
 
         form{
-            margin-top: 28px !important;
-            padding-left: 9px;
-            padding-right: 9px;
+            margin-top: 1.75rem !important;
+            padding-left: 0.5625rem;
+            padding-right: 0.5625rem;
 
             .label{
-                max-width: 295px !important;
-                margin-top: 4px;
+                max-width: 18.4375rem !important;
+                margin-top: 0.25rem;
             }
 
             .checkbox-custom{
-                top: -17px !important;
+                top: -1.0625rem !important;
             }
 
             .button{
-                margin-top: 16px !important;
+                margin-top: 1rem !important;
                 display: block !important;
                 padding-left: 0 !important;
                 padding-right: 0 !important;
                 width: 100%;
-                margin-bottom: 115px;
+                margin-bottom: 7.1875rem;
             }
         }
 
         .social-box{
-            margin-top: 24px !important;
-            padding-left: 9px;
-            padding-right: 9px;
+            margin-top: 1.5rem !important;
+            padding-left: 0.5625rem;
+            padding-right: 0.5625rem;
 
             .title{
                 font-size: 1.4375rem !important;
                 line-height: 1.5rem !important;
-                letter-spacing: 0.019em !important;
+                letter-spacing: 0.019rem !important;
             }
 
             .social-buttons{
-                margin-bottom: 118px;
+                margin-bottom: 7.375rem;
 
                 a{
                     max-width: 100% !important;
@@ -96,11 +96,11 @@
     #footer{
         h100
         .socials{
-            margin-top: 18px !important;
+            margin-top: 1.125rem !important;
         }
 
         .socials, .links-box, .copyrights{
-            padding-left: 22px !important;
+            padding-left: 1.375rem !important;
         }
     }
 }

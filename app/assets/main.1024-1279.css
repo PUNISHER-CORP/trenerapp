@@ -8,124 +8,124 @@
     line-height: 2.5rem !important; }
   #header .description-box .text, #how_it_works .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important; }
   #header .description-box .button, #how_it_works .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px; }
+    padding: 0.625rem 0.9375rem; }
   #header {
-    height: 400px !important;
+    height: 25rem !important;
     background-size: 120% !important; }
     #header .jcc {
       -webkit-box-pack: justify !important;
           -ms-flex-pack: justify !important;
               justify-content: space-between !important; }
     #header .logo-box {
-      margin-left: 42px; }
+      margin-left: 2.625rem; }
     #header .description-box {
-      margin-top: 70px !important;
-      max-width: 290px !important;
-      margin-left: 42px; }
+      margin-top: 4.375rem !important;
+      max-width: 18.125rem !important;
+      margin-left: 2.625rem; }
   #how_it_works .first-part .description-box {
-    max-width: 320px; }
+    max-width: 20rem; }
     #how_it_works .first-part .description-box .title {
       font-size: 1.5rem !important;
       line-height: 1.8rem !important;
-      margin-bottom: 5px; }
+      margin-bottom: 0.3125rem; }
   #how_it_works .second-part {
-    margin-top: -190px !important; }
+    margin-top: -11.875rem !important; }
     #how_it_works .second-part .image-box img.slide-box {
-      width: 280px !important;
-      height: 480px !important; }
+      width: 17.5rem !important;
+      height: 30rem !important; }
     #how_it_works .second-part .description-box {
-      max-width: 450px; }
+      max-width: 28.125rem; }
       #how_it_works .second-part .description-box .title {
         font-size: 1.5rem !important;
         line-height: 1.8rem !important;
-        margin-bottom: 5px; }
+        margin-bottom: 0.3125rem; }
   #how_it_works .rectangle {
-    height: 480px !important; }
+    height: 30rem !important; }
   #how_it_works .justify-content-between {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important; }
   #progress {
-    height: 400px !important;
+    height: 25rem !important;
     background-position: 35% center !important;
     background-size: cover !important; }
     #progress .description-box {
-      margin-top: 127px !important;
-      margin-left: 42px; }
+      margin-top: 7.9375rem !important;
+      margin-left: 2.625rem; }
       #progress .description-box .title {
         font-size: 1.5rem !important;
         line-height: 1.8rem !important;
-        margin-bottom: 5px; }
+        margin-bottom: 0.3125rem; }
       #progress .description-box .text {
         margin-top: 0 !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 1.25rem !important;
         font-size: 0.85rem !important; }
       #progress .description-box .button {
         font-size: 0.9rem !important;
         line-height: 1.1rem !important;
-        padding: 10px 15px; }
+        padding: 0.625rem 0.9375rem; }
   #without_calls_and_sms {
-    height: 400px !important; }
+    height: 25rem !important; }
     #without_calls_and_sms .image-box {
-      margin-left: 42px; }
+      margin-left: 2.625rem; }
       #without_calls_and_sms .image-box img {
-        width: 330px !important;
-        height: 280px !important; }
+        width: 20.625rem !important;
+        height: 17.5rem !important; }
     #without_calls_and_sms .description-box .title {
       font-size: 1.5rem !important;
       line-height: 1.8rem !important;
-      margin-bottom: 5px; }
+      margin-bottom: 0.3125rem; }
     #without_calls_and_sms .description-box .text {
       margin-top: 0 !important;
-      margin-bottom: 20px !important;
+      margin-bottom: 1.25rem !important;
       font-size: 0.85rem !important; }
     #without_calls_and_sms .description-box .button {
       font-size: 0.9rem !important;
       line-height: 1.1rem !important;
-      padding: 10px 15px; }
+      padding: 0.625rem 0.9375rem; }
   #motivation {
-    height: 400px !important;
+    height: 25rem !important;
     background-position: right center !important;
     background-size: cover !important; }
     #motivation .description-box {
-      margin-top: -10px !important;
-      margin-left: 42px; }
+      margin-top: -0.625rem !important;
+      margin-left: 2.625rem; }
       #motivation .description-box .title {
         font-size: 1.5rem !important;
         line-height: 1.8rem !important;
-        margin-bottom: 5px; }
+        margin-bottom: 0.3125rem; }
       #motivation .description-box .text {
         margin-top: 0 !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 1.25rem !important;
         font-size: 0.85rem !important; }
       #motivation .description-box .button {
         font-size: 0.9rem !important;
         line-height: 1.1rem !important;
-        padding: 10px 15px; }
+        padding: 0.625rem 0.9375rem; }
   #footer {
-    height: 555px !important; }
+    height: 34.6875rem !important; }
     #footer .description-box {
-      margin-left: 42px; }
+      margin-left: 2.625rem; }
       #footer .description-box .title {
         font-size: 1.5rem !important;
         line-height: 1.8rem !important;
-        margin-bottom: 5px; }
+        margin-bottom: 0.3125rem; }
       #footer .description-box .text {
         margin-top: 0 !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 1.25rem !important;
         font-size: 0.85rem !important; }
       #footer .description-box .button {
         font-size: 0.9rem !important;
         line-height: 1.1rem !important;
-        padding: 10px 15px; }
+        padding: 0.625rem 0.9375rem; }
     #footer .hr {
-      margin-top: 65px !important;
-      margin-left: -38px;
-      width: 842px; }
+      margin-top: 4.0625rem !important;
+      margin-left: -2.375rem;
+      width: 52.625rem; }
     #footer .socials, #footer .links-box, #footer .copyrights {
-      margin-left: 42px; } }
+      margin-left: 2.625rem; } }

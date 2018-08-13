@@ -34,7 +34,7 @@
   #header .description-box .text,
   #how_it_works .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important;
   }
 
@@ -42,11 +42,11 @@
   #how_it_works .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
 
   #header {
-    height: 400px !important;
+    height: 25rem !important;
     background-size: 120% !important;
   }
 
@@ -57,46 +57,46 @@
   }
 
   #header .logo-box {
-    margin-left: 42px;
+    margin-left: 2.625rem;
   }
 
   #header .description-box {
-    margin-top: 70px !important;
-    max-width: 290px !important;
-    margin-left: 42px;
+    margin-top: 4.375rem !important;
+    max-width: 18.125rem !important;
+    margin-left: 2.625rem;
   }
 
   #how_it_works .first-part .description-box {
-    max-width: 320px;
+    max-width: 20rem;
   }
 
   #how_it_works .first-part .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #how_it_works .second-part {
-    margin-top: -190px !important;
+    margin-top: -11.875rem !important;
   }
 
   #how_it_works .second-part .image-box img.slide-box {
-    width: 280px !important;
-    height: 480px !important;
+    width: 17.5rem !important;
+    height: 30rem !important;
   }
 
   #how_it_works .second-part .description-box {
-    max-width: 450px;
+    max-width: 28.125rem;
   }
 
   #how_it_works .second-part .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #how_it_works .rectangle {
-    height: 480px !important;
+    height: 30rem !important;
   }
 
   #how_it_works .justify-content-between {
@@ -106,130 +106,130 @@
   }
 
   #progress {
-    height: 400px !important;
+    height: 25rem !important;
     background-position: 35% center !important;
     background-size: cover !important;
   }
 
   #progress .description-box {
-    margin-top: 127px !important;
-    margin-left: 42px;
+    margin-top: 7.9375rem !important;
+    margin-left: 2.625rem;
   }
 
   #progress .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #progress .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important;
   }
 
   #progress .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
 
   #without_calls_and_sms {
-    height: 400px !important;
+    height: 25rem !important;
   }
 
   #without_calls_and_sms .image-box {
-    margin-left: 42px;
+    margin-left: 2.625rem;
   }
 
   #without_calls_and_sms .image-box img {
-    width: 330px !important;
-    height: 280px !important;
+    width: 20.625rem !important;
+    height: 17.5rem !important;
   }
 
   #without_calls_and_sms .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #without_calls_and_sms .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important;
   }
 
   #without_calls_and_sms .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
 
   #motivation {
-    height: 400px !important;
+    height: 25rem !important;
     background-position: right center !important;
     background-size: cover !important;
   }
 
   #motivation .description-box {
-    margin-top: -10px !important;
-    margin-left: 42px;
+    margin-top: -0.625rem !important;
+    margin-left: 2.625rem;
   }
 
   #motivation .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #motivation .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important;
   }
 
   #motivation .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
 
   #footer {
-    height: 555px !important;
+    height: 34.6875rem !important;
   }
 
   #footer .description-box {
-    margin-left: 42px;
+    margin-left: 2.625rem;
   }
 
   #footer .description-box .title {
     font-size: 1.5rem !important;
     line-height: 1.8rem !important;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   #footer .description-box .text {
     margin-top: 0 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 1.25rem !important;
     font-size: 0.85rem !important;
   }
 
   #footer .description-box .button {
     font-size: 0.9rem !important;
     line-height: 1.1rem !important;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
   }
 
   #footer .hr {
-    margin-top: 65px !important;
-    margin-left: -38px;
-    width: 842px;
+    margin-top: 4.0625rem !important;
+    margin-left: -2.375rem;
+    width: 52.625rem;
   }
 
   #footer .socials,
   #footer .links-box,
   #footer .copyrights {
-    margin-left: 42px;
+    margin-left: 2.625rem;
   }
 }
 @media (min-width: 1280px) and (max-width: 1400px) {
@@ -241,35 +241,35 @@
 
   #header {
     background-size: 120% !important;
-    height: 431px !important;
+    height: 26.9375rem !important;
   }
 
   #header .description-box {
-    margin-top: 70px !important;
-    max-width: 430px;
+    margin-top: 4.375rem !important;
+    max-width: 26.875rem;
   }
 
   #how_it_works .first-part .description-box {
-    margin-left: 86px;
+    margin-left: 5.375rem;
   }
 
   #how_it_works .first-part .description-box .title {
-    width: 460px;
+    width: 28.75rem;
   }
 
   #how_it_works .rectangle {
     -webkit-clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
     clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
-    height: 500px !important;
-    margin-top: -140px !important;
+    height: 31.25rem !important;
+    margin-top: -8.75rem !important;
   }
 
   #how_it_works .second-part {
-    margin-top: -230px !important;
+    margin-top: -14.375rem !important;
   }
 
   #how_it_works .second-part .image-box {
-    margin-left: 86px;
+    margin-left: 5.375rem;
   }
 
   #progress {
@@ -277,57 +277,57 @@
   }
 
   #progress .description-box {
-    margin-left: 86px;
+    margin-left: 5.375rem;
   }
 
   #without_calls_and_sms .image-box img {
-    width: 306px !important;
-    height: 250px !important;
-    margin-left: 86px;
+    width: 19.125rem !important;
+    height: 15.625rem !important;
+    margin-left: 5.375rem;
   }
 
   #without_calls_and_sms .description-box .text {
-    max-width: 440px !important;
+    max-width: 27.5rem !important;
   }
 
   #motivation {
-    height: 500px !important;
+    height: 31.25rem !important;
     background-position: right center !important;
     background-size: 125% 100% !important;
     background-repeat: no-repeat !important;
   }
 
   #motivation .description-box {
-    margin-left: 86px;
+    margin-left: 5.375rem;
   }
 
   #footer .description-box {
-    margin-left: 86px;
+    margin-left: 5.375rem;
   }
 
   #footer .socials {
-    margin-left: 93px;
+    margin-left: 5.8125rem;
   }
 
   #footer .links-box {
-    margin-left: 93px;
+    margin-left: 5.8125rem;
   }
 
   #footer .copyrights {
-    margin-left: 93px;
+    margin-left: 5.8125rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .description-box {
-    padding-left: 9px !important;
-    padding-right: 9px !important;
+    padding-left: 0.5625rem !important;
+    padding-right: 0.5625rem !important;
     margin-left: 0 !important;
   }
 
   .description-box a.button {
-    padding-top: 11px !important;
-    padding-bottom: 11px !important;
+    padding-top: 0.6875rem !important;
+    padding-bottom: 0.6875rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     display: block;
@@ -347,7 +347,7 @@
   #motivation .description-box .title {
     font-size: 1.4375rem !important;
     line-height: 1.5rem !important;
-    letter-spacing: 0.019em;
+    letter-spacing: 0.019rem;
   }
 
   #how_it_works .description-box .text,
@@ -356,19 +356,19 @@
   #motivation .description-box .text {
     font-size: 0.875rem !important;
     line-height: 1rem !important;
-    letter-spacing: 0.01em;
-    margin-bottom: 18px !important;
+    letter-spacing: 0.01rem;
+    margin-bottom: 1.125rem !important;
   }
 
   #header {
     background: url("../images/header_bg-small.png") no-repeat !important;
-    height: 525px !important;
+    height: 32.8125rem !important;
     background-size: cover !important;
   }
 
   #header .logo-box {
-    padding-left: 9px;
-    margin-top: 23px !important;
+    padding-left: 0.5625rem;
+    margin-top: 1.4375rem !important;
   }
 
   #header .logo-box .br-r,
@@ -377,11 +377,11 @@
   }
 
   #header .logo-box .logo img {
-    width: 150px;
+    width: 9.375rem;
   }
 
   #header .description-box {
-    margin-top: 200px !important;
+    margin-top: 12.5rem !important;
   }
 
   #header .description-box .title {
@@ -390,12 +390,12 @@
   }
 
   #header .description-box .text {
-    margin-top: 10px !important;
-    margin-bottom: 26px !important;
+    margin-top: 0.625rem !important;
+    margin-bottom: 1.625rem !important;
     font-size: 1rem !important;
     line-height: 1.1875rem !important;
-    max-width: 285px !important;
-    letter-spacing: 0.040em !important;
+    max-width: 17.8125rem !important;
+    letter-spacing: 0.040rem !important;
   }
 
   #how_it_works .justify-content-between {
@@ -409,31 +409,31 @@
   }
 
   #how_it_works .first-part .description-box {
-    margin-top: 42px !important;
+    margin-top: 2.625rem !important;
   }
 
   #how_it_works .first-part .image-box {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 
   #how_it_works .first-part .image-box img {
-    max-width: 325px !important;
+    max-width: 20.3125rem !important;
   }
 
   #how_it_works .first-part .image-box .author .name {
     font-size: 0.625rem !important;
     line-height: 0.6875rem !important;
-    letter-spacing: 0.019em !important;
+    letter-spacing: 0.019rem !important;
   }
 
   #how_it_works .first-part .image-box .author img {
-    width: 17px !important;
-    height: 17px !important;
+    width: 1.0625rem !important;
+    height: 1.0625rem !important;
   }
 
   #how_it_works .second-part {
-    margin-top: 57px !important;
-    margin-bottom: 55px !important;
+    margin-top: 3.5625rem !important;
+    margin-bottom: 3.4375rem !important;
   }
 
   #how_it_works .second-part .image-box {
@@ -446,23 +446,23 @@
 
   #how_it_works .second-part .image-box .slider {
     max-width: 247px !important;
-    height: 438px;
-    width: 241px !important;
+    height: 27.375rem;
+    width: 15.0625rem !important;
   }
 
   #how_it_works .second-part .image-box .slider .slider-nav {
-    top: 118px !important;
+    top: 7.375rem !important;
   }
 
   #how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link {
     font-size: 0.6rem !important;
-    margin-right: 6px !important;
+    margin-right: 0.375rem !important;
   }
 
   #how_it_works .second-part .image-box .slider .slides-box {
-    height: 274px !important;
-    width: 241px !important;
-    top: 122px !important;
+    height: 17.125rem !important;
+    width: 15.0625rem !important;
+    top: 7.625rem !important;
   }
 
   #how_it_works .second-part .image-box .slider .slides-box .slide img {
@@ -470,31 +470,31 @@
   }
 
   #how_it_works .second-part .image-box img {
-    border: 1px solid #DDDDDD;
-    width: 247px !important;
-    height: 438px !important;
+    border: 0.0625rem solid #DDDDDD;
+    width: 15.4375rem !important;
+    height: 27.375rem !important;
   }
 
   #how_it_works .second-part .description-box {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 
   #progress {
-    height: 525px !important;
+    height: 32.8125rem !important;
     background: url("../images/progress-bg-xs.png") no-repeat !important;
     background-size: cover !important;
   }
 
   #progress .description-box {
-    margin-top: 320px !important;
+    margin-top: 20rem !important;
   }
 
   #progress .description-box .text {
-    margin-bottom: 25px !important;
+    margin-bottom: 1.5625rem !important;
   }
 
   #without_calls_and_sms {
-    height: 545px !important;
+    height: 34.0625rem !important;
   }
 
   #without_calls_and_sms .align-items-center {
@@ -506,47 +506,47 @@
   #without_calls_and_sms .image-box {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 44px;
+    margin-top: 2.75rem;
   }
 
   #without_calls_and_sms .image-box img {
-    max-width: 325px !important;
-    max-height: 240px !important;
+    max-width: 20.3125rem !important;
+    max-height: 15rem !important;
   }
 
   #without_calls_and_sms .description-box {
-    margin-top: -15px !important;
+    margin-top: -0.9375rem !important;
   }
 
   #motivation {
-    height: 390px !important;
+    height: 24.375rem !important;
     background: url("../images/motivation-bg-xs.png") no-repeat !important;
     background-size: cover !important;
   }
 
   #motivation .description-box {
-    margin-top: 145px !important;
+    margin-top: 9.0625rem !important;
   }
 
   #motivation .description-box .text {
-    margin-top: 15px !important;
-    margin-bottom: 26px !important;
+    margin-top: 0.9375rem !important;
+    margin-bottom: 1.625rem !important;
   }
 
   #coaches {
-    height: 400px !important;
+    height: 25rem !important;
   }
 
   #coaches .owl-carousel {
-    margin-top: 50px !important;
+    margin-top: 3.125rem !important;
   }
 
   #coaches .owl-dots {
-    margin-top: 38px !important;
+    margin-top: 2.375rem !important;
   }
 
   #coaches .card {
-    padding: 0 9px;
+    padding: 0 0.5625rem;
   }
 
   #footer {
@@ -554,7 +554,7 @@
   }
 
   #footer .description-box {
-    margin-top: 36px !important;
+    margin-top: 2.25rem !important;
   }
 
   #footer .description-box .title {
@@ -563,31 +563,31 @@
   }
 
   #footer .description-box .text {
-    margin-bottom: 24px !important;
+    margin-bottom: 1.5rem !important;
   }
 
   #footer .mt-15 {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
   }
 
   #footer .hr {
-    margin-top: 25px !important;
+    margin-top: 1.5625rem !important;
   }
 
   #footer .socials {
-    margin-bottom: 32px !important;
+    margin-bottom: 2rem !important;
   }
 
   #footer .socials,
   #footer .links-box,
   #footer .copyrights {
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
   }
 
   #footer .copyrights {
-    margin-bottom: 17px;
+    margin-bottom: 1.0625rem;
   }
 }
 
@@ -604,11 +604,11 @@
   }
 
   #how_it_works .first-part .image-box img {
-    max-width: 290px !important;
+    max-width: 18.125rem !important;
   }
 
   #without_calls_and_sms .image-box img {
-    max-width: 290px !important;
+    max-width: 18.125rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -622,7 +622,7 @@
   .description-box {
     margin-left: 0 !important;
     text-align: center;
-    margin-top: 150px !important;
+    margin-top: 9.375rem !important;
     max-width: 100% !important;
   }
 
@@ -634,7 +634,7 @@
 
   .description-box .text {
     max-width: 100% !important;
-    margin-top: 5px !important;
+    margin-top: 0.3125rem !important;
     font-size: 0.8rem !important;
   }
 
@@ -644,7 +644,7 @@
   }
 
   #header .description-box {
-    margin-top: 220px !important;
+    margin-top: 13.75rem !important;
   }
 
   #how_it_works .justify-content-between {
@@ -658,11 +658,11 @@
   }
 
   #how_it_works .first-part .description-box {
-    margin-top: 70px !important;
+    margin-top: 4.375rem !important;
   }
 
   #how_it_works .image-box {
-    margin-top: 80px;
+    margin-top: 5rem;
     text-align: center;
   }
 
@@ -671,12 +671,12 @@
   }
 
   #how_it_works .second-part .description-box {
-    padding-left: 0px !important;
-    margin-top: 70px !important;
+    padding-left: 0rem !important;
+    margin-top: 4.375rem !important;
   }
 
   #how_it_works .second-part .image-box {
-    max-width: 306px;
+    max-width: 19.125rem;
     margin-right: auto;
     margin-left: auto;
   }
@@ -724,8 +724,8 @@ a.button {
   background: #CCFF00;
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  padding: 15px 23px;
-  border-radius: 10px;
+  padding: 0.9375rem 1.4375rem;
+  border-radius: 0.625rem;
 }
 
 a.button:hover {
@@ -744,7 +744,7 @@ a.button:hover {
 #header .logo-box,
 #header_subscription .logo-box,
 #header_success .logo-box {
-  margin-top: 28px;
+  margin-top: 1.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -762,11 +762,11 @@ a.button:hover {
 #header .logo-box .br-r,
 #header_subscription .logo-box .br-r,
 #header_success .logo-box .br-r {
-  height: 40px;
+  height: 2.5rem;
   background: #757575;
-  width: 1px;
-  margin-right: 15px;
-  margin-left: 15px;
+  width: 0.0625rem;
+  margin-right: 0.9375rem;
+  margin-left: 0.9375rem;
 }
 
 #header .logo-box .logo-description,
@@ -774,12 +774,12 @@ a.button:hover {
 #header_success .logo-box .logo-description {
   font-size: 0.75rem;
   line-height: 0.8125rem;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.025rem;
 }
 
 #header .description-box,
 #footer .description-box {
-  margin-top: 111px;
+  margin-top: 6.9375rem;
 }
 
 #header .description-box .title,
@@ -793,18 +793,18 @@ a.button:hover {
 
 #header .description-box .text,
 #footer .description-box .text {
-  margin-top: 17px;
-  margin-bottom: 40px;
+  margin-top: 1.0625rem;
+  margin-bottom: 2.5rem;
   max-width: 430px;
   color: #969696;
   line-height: 1.1875rem;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.015rem;
 }
 
 #header {
   background: url("../images/header_bg.png") no-repeat #000;
   background-size: 100%;
-  height: 500px;
+  height: 31.25rem;
 }
 
 #header .logo-box .logo-description {
@@ -819,7 +819,7 @@ a.button:hover {
 #progress .description-box,
 #without_calls_and_sms .description-box,
 #motivation .description-box {
-  margin-top: 117px;
+  margin-top: 7.3125rem;
 }
 
 #how_it_works .description-box .title,
@@ -830,7 +830,7 @@ a.button:hover {
   font-family: 'Roboto-bold';
   font-size: 3rem;
   line-height: 3.1875rem;
-  letter-spacing: 0.012em;
+  letter-spacing: 0.012rem;
 }
 
 #how_it_works .description-box .text,
@@ -838,57 +838,57 @@ a.button:hover {
 #without_calls_and_sms .description-box .text,
 #motivation .description-box .text {
   max-width: 375px;
-  margin-top: 14px;
-  margin-bottom: 40px;
+  margin-top: 0.875rem;
+  margin-bottom: 2.5rem;
   color: #808080;
   font-size: 1rem;
   line-height: 1.1875rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01rem;
 }
 
 #how_it_works .description-box a.button,
 #progress .description-box a.button,
 #without_calls_and_sms .description-box a.button,
 #motivation .description-box a.button {
-  padding: 10px 20px;
-  -webkit-box-shadow: 0px 0.5px 0px #000000;
-  box-shadow: 0px 0.5px 0px #000000;
+  padding: 0.625rem 1.25rem;
+  -webkit-box-shadow: 0rem 0.03125rem 0rem #000000;
+  box-shadow: 0rem 0.03125rem 0rem #000000;
 }
 
 #how_it_works .first-part .image-box {
-  margin-top: 75px;
+  margin-top: 4.6875rem;
 }
 
 #how_it_works .first-part .image-box .author {
-  margin-top: 13px;
+  margin-top: 0.8125rem;
 }
 
 #how_it_works .first-part .image-box .author img {
-  width: 23px;
-  height: 23px;
+  width: 1.4375rem;
+  height: 1.4375rem;
 }
 
 #how_it_works .first-part .image-box .author .name {
   font-family: 'Roboto-bold';
-  margin-left: 6px;
+  margin-left: 0.375rem;
   font-size: 0.875rem;
-  letter-spacing: 0.009em;
+  letter-spacing: 0.009rem;
   line-height: 0.900rem;
   color: #000;
 }
 
 #how_it_works .rectangle {
-  margin-top: -208px;
+  margin-top: -13rem;
   width: 100%;
-  height: 600px;
+  height: 37.5rem;
   background: #CCFF00;
   -webkit-clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
   clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
 }
 
 #how_it_works .second-part {
-  margin-top: -265px;
-  margin-bottom: 115px;
+  margin-top: -16.5625rem;
+  margin-bottom: 7.1875rem;
 }
 
 #how_it_works .second-part .image-box {
@@ -896,21 +896,21 @@ a.button:hover {
 }
 
 #how_it_works .second-part .image-box img {
-  width: 306px;
-  height: 543px;
-  border: 1px solid #DDDDDD;
+  width: 19.125rem;
+  height: 33.9375rem;
+  border: 0.0625rem solid #DDDDDD;
 }
 
 #how_it_works .second-part .image-box .slider {
   position: absolute;
   top: 0;
-  left: 3px;
-  width: 300px;
+  left: 0.1875rem;
+  width: 18.75rem;
 }
 
 #how_it_works .second-part .image-box .slider .slider-nav {
   position: relative;
-  top: 145px;
+  top: 9.0625rem;
   text-align: center;
   color: #9b9b9b;
 }
@@ -919,7 +919,7 @@ a.button:hover {
   font-size: 0.70rem;
   font-family: 'Roboto-bold';
   text-transform: uppercase;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   display: inline-block;
 }
 
@@ -930,16 +930,16 @@ a.button:hover {
 }
 
 #how_it_works .second-part .image-box .slider .slider-nav .active {
-  border-bottom: 2px solid #000;
+  border-bottom: 0.125rem solid #000;
   color: #000;
 }
 
 #how_it_works .second-part .image-box .slider .slides-box {
-  height: 360px;
+  height: 22.5rem;
   width: 100%;
   background: #fff;
   position: relative;
-  top: 140px;
+  top: 8.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -953,14 +953,14 @@ a.button:hover {
 }
 
 #how_it_works .second-part .image-box .slider .slides-box .slide img {
-  width: 300px;
+  width: 18.75rem;
   height: 100%;
   border: none;
 }
 
 #how_it_works .second-part .description-box {
-  margin-top: 200px;
-  padding-left: 30px;
+  margin-top: 12.5rem;
+  padding-left: 1.875rem;
 }
 
 #how_it_works .second-part .description-box .text {
@@ -970,11 +970,11 @@ a.button:hover {
 #progress {
   background-color: #000;
   background: url("../images/progress-bg.png") no-repeat;
-  height: 500px;
+  height: 31.25rem;
 }
 
 #progress .description-box {
-  margin-top: 145px;
+  margin-top: 9.0625rem;
 }
 
 #progress .description-box .title {
@@ -982,7 +982,7 @@ a.button:hover {
 }
 
 #without_calls_and_sms {
-  height: 500px;
+  height: 31.25rem;
 }
 
 #without_calls_and_sms .container,
@@ -991,13 +991,13 @@ a.button:hover {
 }
 
 #without_calls_and_sms .image-box img {
-  width: 391px;
-  height: 293px;
+  width: 24.4375rem;
+  height: 18.3125rem;
 }
 
 #without_calls_and_sms .description-box {
   margin-top: 0;
-  margin-left: 26px;
+  margin-left: 1.625rem;
 }
 
 #without_calls_and_sms .description-box .text {
@@ -1005,7 +1005,7 @@ a.button:hover {
 }
 
 #motivation {
-  height: 500px;
+  height: 31.25rem;
   background: url("../images/motivation-bg.png");
 }
 
@@ -1023,7 +1023,7 @@ a.button:hover {
 }
 
 #coaches {
-  height: 460px;
+  height: 28.75rem;
 }
 
 #coaches .container,
@@ -1032,18 +1032,18 @@ a.button:hover {
 }
 
 #coaches .owl-carousel {
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 #coaches .card {
-  max-width: 560px;
+  max-width: 35rem;
   text-align: center;
   border: none;
 }
 
 #coaches .card .photo {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   margin: 0 auto;
 }
 
@@ -1052,34 +1052,34 @@ a.button:hover {
 }
 
 #coaches .card .name {
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   color: #000;
   font-family: 'Roboto-bold';
   font-size: 1.25rem;
   line-height: 1.3125rem;
-  letter-spacing: 0.019em;
+  letter-spacing: 0.019rem;
 }
 
 #coaches .card .who,
 #coaches .card a.profile {
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   color: #a7a7a8;
   font-size: 0.8125rem;
   line-height: 0.875rem;
-  letter-spacing: 0.020em;
+  letter-spacing: 0.020rem;
 }
 
 #coaches .card .about {
-  margin: 14px auto 32px auto;
+  margin: 0.875rem auto 2rem auto;
   max-width: 343px;
   color: #808080;
   font-size: 0.875rem;
   line-height: 1rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01rem;
 }
 
 #coaches .card a.profile {
-  border-bottom: 1px solid #a7a7a8;
+  border-bottom: 0.0625rem solid #a7a7a8;
   max-width: 170px;
   margin-left: auto;
   margin-right: auto;
@@ -1092,7 +1092,7 @@ a.button:hover {
 }
 
 #footer {
-  height: 700px;
+  height: 43.75rem;
   background: #000;
 }
 
@@ -1101,26 +1101,26 @@ a.button:hover {
 }
 
 #footer .description-box {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 #footer .mt-15 {
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 
 #footer .hr {
-  margin-top: 95px;
-  height: 1px;
+  margin-top: 5.9375rem;
+  height: 0.0625rem;
   background: #696969;
 }
 
 #footer .socials {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 2.1875rem;
+  margin-bottom: 2.1875rem;
 }
 
 #footer .socials a {
-  margin-right: 14px;
+  margin-right: 0.875rem;
 }
 
 #footer .socials a:hover {
@@ -1131,15 +1131,15 @@ a.button:hover {
   color: #7f7f7f;
   font-size: 1rem;
   line-height: 1.3125rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
 }
 
 #footer .copyrights {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   color: #5f5f5f;
   font-size: 0.8125rem;
   line-height: 0.875rem;
-  letter-spacing: -0.006em;
+  letter-spacing: -0.006rem;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   #header_subscription,
@@ -1149,8 +1149,8 @@ a.button:hover {
 
   #header_subscription .logo-box,
   #header_success .logo-box {
-    margin-top: 21px !important;
-    padding-left: 9px;
+    margin-top: 1.3125rem !important;
+    padding-left: 0.5625rem;
   }
 
   #header_subscription .logo-box .br-r,
@@ -1162,31 +1162,31 @@ a.button:hover {
 
   #header_subscription .logo-box .logo img,
   #header_success .logo-box .logo img {
-    width: 150px;
+    width: 9.375rem;
   }
 
   #header_subscription .header-title-box,
   #header_success .header-title-box {
-    max-width: 244px !important;
-    padding-left: 9px;
-    margin-top: 55px !important;
+    max-width: 15.25rem !important;
+    padding-left: 0.5625rem;
+    margin-top: 3.4375rem !important;
   }
 
   #header_subscription .header-title-box .title,
   #header_success .header-title-box .title {
     font-size: 1.4375rem !important;
     line-height: 1.5rem !important;
-    letter-spacing: 0.019em !important;
+    letter-spacing: 0.019rem !important;
   }
 
   #header_subscription .header-title-box .description,
   #header_success .header-title-box .description {
     font-size: 1rem !important;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   #header_success .header-title-box {
-    margin-top: 80px !important;
+    margin-top: 5rem !important;
   }
 
   #content {
@@ -1194,47 +1194,47 @@ a.button:hover {
   }
 
   #content .pl-none {
-    padding-right: 15px !important;
+    padding-right: 0.3125rem !important;
   }
 
   #content form {
-    margin-top: 28px !important;
-    padding-left: 9px;
-    padding-right: 9px;
+    margin-top: 1.75rem !important;
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
   }
 
   #content form .label {
-    max-width: 295px !important;
-    margin-top: 4px;
+    max-width: 18.4375rem !important;
+    margin-top: 0.25rem;
   }
 
   #content form .checkbox-custom {
-    top: -17px !important;
+    top: -1.0625rem !important;
   }
 
   #content form .button {
-    margin-top: 16px !important;
+    margin-top: 1rem !important;
     display: block !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     width: 100%;
-    margin-bottom: 115px;
+    margin-bottom: 7.1875rem;
   }
 
   #content .social-box {
-    margin-top: 24px !important;
-    padding-left: 9px;
-    padding-right: 9px;
+    margin-top: 1.5rem !important;
+    padding-left: 0.5625rem;
+    padding-right: 0.5625rem;
   }
 
   #content .social-box .title {
     font-size: 1.4375rem !important;
     line-height: 1.5rem !important;
-    letter-spacing: 0.019em !important;
+    letter-spacing: 0.019rem !important;
   }
 
   #content .social-box .social-buttons {
-    margin-bottom: 118px;
+    margin-bottom: 7.375rem;
   }
 
   #content .social-box .social-buttons a {
@@ -1243,13 +1243,13 @@ a.button:hover {
 
   #footer h100
 .socials {
-    margin-top: 18px !important;
+    margin-top: 1.125rem !important;
   }
 
   #footer .socials,
   #footer .links-box,
   #footer .copyrights {
-    padding-left: 22px !important;
+    padding-left: 1.375rem !important;
   }
 }
 
@@ -1260,7 +1260,7 @@ a.button:hover {
 }
 #header_subscription,
 #header_success {
-  height: 335px;
+  height: 20.9375rem;
   background: #CCFF00;
 }
 
@@ -1272,8 +1272,8 @@ a.button:hover {
 
 #header_subscription .header-title-box,
 #header_success .header-title-box {
-  margin-top: 105px;
-  max-width: 400px;
+  margin-top: 6.5625rem;
+  max-width: 25rem;
 }
 
 #header_subscription .header-title-box .title,
@@ -1281,22 +1281,22 @@ a.button:hover {
   color: #000;
   font-size: 3rem;
   line-height: 3.1875rem;
-  letter-spacing: 0.012em;
+  letter-spacing: 0.012rem;
   font-family: 'Roboto-bold';
 }
 
 #header_subscription .header-title-box .description,
 #header_success .header-title-box .description {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #000;
   opacity: 0.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
   font-size: 1rem;
 }
 
 #content {
   background: #fff;
-  height: 480px;
+  height: 30rem;
 }
 
 #content .pl-none {
@@ -1304,17 +1304,17 @@ a.button:hover {
 }
 
 #content form {
-  margin-top: 45px;
-  max-width: 430px;
+  margin-top: 2.8125rem;
+  max-width: 26.875rem;
 }
 
 #content form .form-control {
-  padding: 9px 20px;
-  height: 45px;
-  border-radius: 8px;
+  padding: 0.5625rem 1.25rem;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
   border-color: #ADADAD;
   color: #222326;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
 }
 
 #content form .form-control::-webkit-input-placeholder {
@@ -1334,7 +1334,7 @@ a.button:hover {
 }
 
 #content form label {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #content form label .checkbox {
@@ -1343,11 +1343,11 @@ a.button:hover {
 
 #content form label .checkbox-custom {
   position: relative;
-  top: -1px;
-  width: 24px;
-  height: 24px;
-  border: 1px solid #ADADAD;
-  border-radius: 4px;
+  top: -0.0625rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.0625rem solid #ADADAD;
+  border-radius: 0.25rem;
 }
 
 #content form label .checkbox-custom,
@@ -1357,75 +1357,75 @@ a.button:hover {
 }
 
 #content form label .label {
-  max-width: 390px;
+  max-width: 24.375rem;
   color: #4c4c4c;
   font-size: 0.75rem;
   line-height: 0.9375rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02rem;
 }
 
 #content form label .checkbox:checked + .checkbox-custom::before {
   content: "✔";
   display: block;
   position: absolute;
-  left: 3px;
-  top: -2px;
+  left: 0.1875rem;
+  top: -0.125rem;
   font-size: 1.1rem;
 }
 
 #content form .button {
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 2.5rem;
   background: #CCFF00;
   display: block;
-  padding: 12px 44px;
+  padding: 0.75rem 2.75rem;
   font-family: 'Roboto-bold';
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  -webkit-box-shadow: 0px 0.5px 0px #000000;
-  box-shadow: 0px 0.5px 0px #000000;
-  border-radius: 10px;
+  -webkit-box-shadow: 0 0.03125rem 0 #000000;
+  box-shadow: 0 0.03125rem 0 #000000;
+  border-radius: 0.625rem;
   border: none;
 }
 
 .footer_subscription {
-  height: 270px !important;
+  height: 16.875rem !important;
 }
 #content .social-box {
-  margin-top: 75px;
+  margin-top: 4.6875rem;
 }
 
 #content .social-box .title {
-  max-width: 350px;
+  max-width: 21.875rem;
   font-family: 'Roboto-bold';
   font-size: 1.5rem;
   line-height: 1.75rem;
 }
 
 #content .social-box .social-buttons {
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 
 #content .social-box .social-buttons a {
   position: relative;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 0.625rem;
+  margin-bottom: 0.625rem;
   max-width: 290px;
   display: block;
   font-size: 1.125rem;
   line-height: 1.3125rem;
   color: #fff;
   font-family: 'Roboto-bold';
-  padding: 12px 0 12px 43px;
+  padding: 0.75rem 0 0.75rem 2.6875rem;
 }
 
 #content .social-box .social-buttons a::before {
   content: '';
   position: absolute;
-  width: 26px;
-  height: 25px;
-  top: 9px;
-  left: 11px;
+  width: 1.625rem;
+  height: 1.5625rem;
+  top: 0.5625rem;
+  left: 0.6875rem;
 }
 
 #content .social-box .social-buttons a:hover {

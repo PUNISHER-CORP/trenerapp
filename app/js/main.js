@@ -30,7 +30,7 @@ $( document ).ready(function() {
        activeItem = e.item.index;
        if(activeItem >=0){
             $('.active').removeClass('active');
-            $('p#'+activeItem).addClass('active');
+            $('[data-id='+activeItem+']').addClass('active');
        }
     });
       

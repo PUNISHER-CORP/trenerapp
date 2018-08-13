@@ -10,8 +10,8 @@ a.button {
     background: #CCFF00;
     font-size: 1.125rem;
     line-height: 1.3125rem;
-    padding: 15px 23px;
-    border-radius: 10px;
+    padding: 0.9375rem 1.4375rem;
+    border-radius: 0.625rem;
 
     &:hover{
         text-decoration: none;
@@ -31,7 +31,7 @@ a.button {
 
 #header, #header_subscription, #header_success{
     .logo-box{
-        margin-top: 28px;
+        margin-top: 1.75rem;
         display: flex;
         align-items: center;
 
@@ -40,24 +40,24 @@ a.button {
         }
 
         .br-r{
-            height: 40px;
+            height: 2.5rem;
             background: #757575;
-            width: 1px;
-            margin-right: 15px;
-            margin-left: 15px;
+            width: 0.0625rem;
+            margin-right: 0.9375rem;
+            margin-left: 0.9375rem;
         }
         
         .logo-description{
             font-size: 0.75rem;
             line-height: 0.8125rem;
-            letter-spacing: 0.025em;
+            letter-spacing: 0.025rem;
         }
     }
 }
 
 #header, #footer{
     .description-box{
-        margin-top: 111px;
+        margin-top: 6.9375rem;
         
         .title{
             color: #fff;
@@ -68,12 +68,12 @@ a.button {
         }
 
         .text{
-            margin-top: 17px;
-            margin-bottom: 40px;
+            margin-top: 1.0625rem;
+            margin-bottom: 2.5rem;
             max-width: 430px;
             color: #969696;
             line-height: 1.1875rem;
-            letter-spacing: 0.015em;
+            letter-spacing: 0.015rem;
         }
     }
 }
@@ -81,7 +81,7 @@ a.button {
 #header{
     background: url('../images/header_bg.png') no-repeat #000;
     background-size: 100%;
-    height: 500px;
+    height: 31.25rem;
 
     .logo-box{
         .logo-description{
@@ -97,28 +97,28 @@ a.button {
 #how_it_works, #progress, #without_calls_and_sms, #motivation{
     
     .description-box{
-        margin-top: 117px;
+        margin-top: 7.3125rem;
         .title{
             color: #000;
             font-family: 'Roboto-bold';
             font-size: 3rem;
             line-height: 3.1875rem;
-            letter-spacing: 0.012em;
+            letter-spacing: 0.012rem;
         }
 
         .text{
             max-width: 375px;
-            margin-top: 14px;
-            margin-bottom: 40px;
+            margin-top: 0.875rem;
+            margin-bottom: 2.5rem;
             color: #808080;
             font-size: 1rem;
             line-height: 1.1875rem;
-            letter-spacing: 0.01em;
+            letter-spacing: 0.01rem;
         }
 
         a.button{
-            padding: 10px 20px;
-            box-shadow: 0px 0.5px 0px #000000;
+            padding: 0.625rem 1.25rem;
+            box-shadow: 0rem 0.03125rem 0rem #000000;
         }
     }
 }
@@ -128,22 +128,22 @@ a.button {
     .first-part{
 
         .image-box{
-            margin-top: 75px;
+            margin-top: 4.6875rem;
 
             .author{
-                margin-top: 13px;
+                margin-top: 0.8125rem;
                 
                 img{
-                    width: 23px;
-                    height: 23px;
+                    width: 1.4375rem;
+                    height: 1.4375rem;
                 
                 }
 
                 .name{
                     font-family: 'Roboto-bold';
-                    margin-left: 6px;
+                    margin-left: 0.375rem;
                     font-size: 0.875rem;
-                    letter-spacing: 0.009em;
+                    letter-spacing: 0.009rem;
                     line-height: 0.900rem;
                     color: #000;
                 }
@@ -152,34 +152,34 @@ a.button {
     }
 
     .rectangle{
-        margin-top: -208px;
+        margin-top: -13rem;
         width: 100%;
-        height: 600px;
+        height: 37.5rem;
         background: #CCFF00;
         clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
     }
 
     .second-part{
-        margin-top: -265px;
-        margin-bottom: 115px;
+        margin-top: -16.5625rem;
+        margin-bottom: 7.1875rem;
         .image-box{
             position: relative;
             
             img{
-                width: 306px;
-                height: 543px;
-                border: 1px solid #DDDDDD;
+                width: 19.125rem;
+                height: 33.9375rem;
+                border: 0.0625rem solid #DDDDDD;
             }
 
             .slider{
                 position: absolute;
                 top: 0;
-                left: 3px;
-                width: 300px;
+                left: 0.1875rem;
+                width: 18.75rem;
 
                 .slider-nav{
                     position: relative;
-                    top: 145px;
+                    top: 9.0625rem;
                     text-align: center;
                     color: #9b9b9b;
 
@@ -188,7 +188,7 @@ a.button {
                         font-size: 0.70rem;
                         font-family: 'Roboto-bold';
                         text-transform: uppercase;
-                        margin-right: 12px;
+                        margin-right: 0.75rem;
                         display: inline-block;
 
                         &:hover{
@@ -199,18 +199,18 @@ a.button {
                     }
                     
                     .active{
-                        border-bottom: 2px solid #000;
+                        border-bottom: 0.125rem solid #000;
                         color:#000;
                         
                     }
                 }
 
                 .slides-box{
-                    height: 360px;
+                    height: 22.5rem;
                     width: 100%;
                     background: #fff;
                     position: relative;
-                    top: 140px;
+                    top: 8.75rem;
                     display: flex;
                     flex-direction: row;
                     flex-wrap: nowrap;
@@ -220,7 +220,7 @@ a.button {
 
                     .slide{
                         img{
-                            width: 300px;
+                            width: 18.75rem;
                             height: 100%;
                             border: none;
                         }
@@ -230,8 +230,8 @@ a.button {
         }
 
         .description-box{
-            margin-top: 200px;
-            padding-left: 30px;
+            margin-top: 12.5rem;
+            padding-left: 1.875rem;
 
             .text{
                 max-width: 410px;
@@ -243,10 +243,10 @@ a.button {
 #progress{
     background-color: #000;
     background: url(../images/progress-bg.png) no-repeat;
-    height: 500px;
+    height: 31.25rem;
 
     .description-box{
-        margin-top: 145px;
+        margin-top: 9.0625rem;
 
         .title{
             color: #fff;
@@ -256,7 +256,7 @@ a.button {
 }
 
 #without_calls_and_sms{
-    height: 500px;
+    height: 31.25rem;
 
     .container, .row{
         height: 100%;
@@ -264,14 +264,14 @@ a.button {
     
     .image-box{
         img{
-            width: 391px;
-            height: 293px;
+            width: 24.4375rem;
+            height: 18.3125rem;
         }
     }
 
     .description-box{
         margin-top: 0;
-        margin-left: 26px;
+        margin-left: 1.625rem;
 
         .text{
             max-width: 475px;
@@ -280,7 +280,7 @@ a.button {
 }
 
 #motivation{
-    height: 500px;
+    height: 31.25rem;
     background: url(../images/motivation-bg.png);
 
     .container, .row{
@@ -296,24 +296,24 @@ a.button {
 }
 
 #coaches{
-    height: 460px;
+    height: 28.75rem;
 
     .container, .row{
         height: 100%;
     }
 
     .owl-carousel{
-        margin-top: 70px;
+        margin-top: 4.375rem;
     }
 
     .card{
-        max-width: 560px;
+        max-width: 35rem;
         text-align: center;
         border: none;
 
         .photo{
-            width: 100px;
-            height: 100px;
+            width: 6.25rem;
+            height: 6.25rem;
             margin: 0 auto;
 
             img{
@@ -323,33 +323,33 @@ a.button {
         }
 
         .name{
-            margin-top: 15px;
+            margin-top: 0.9375rem;
             color: #000;
             font-family: 'Roboto-bold';
             font-size: 	1.25rem;
             line-height: 1.3125rem;
-            letter-spacing: 0.019em;
+            letter-spacing: 0.019rem;
         }
 
         .who, a.profile{
-            margin-top: 5px;
+            margin-top: 0.3125rem;
             color: #a7a7a8;
             font-size: 0.8125rem;
             line-height: 0.875rem;
-            letter-spacing: 0.020em;
+            letter-spacing: 0.020rem;
         }
 
         .about{
-            margin: 14px auto 32px auto;
+            margin: 0.875rem auto 2rem auto;
             max-width: 343px;
             color: #808080;
             font-size: 0.875rem;
             line-height: 1rem;
-            letter-spacing: 0.01em;
+            letter-spacing: 0.01rem;
         }
 
         a.profile{
-            border-bottom: 1px solid #a7a7a8;
+            border-bottom: 0.0625rem solid #a7a7a8;
             max-width: 170px;
             margin-left: auto;
             margin-right: auto;
@@ -364,7 +364,7 @@ a.button {
 }
 
 #footer{
-    height: 700px;
+    height: 43.75rem;
     background: #000;
 
     .container{
@@ -372,25 +372,25 @@ a.button {
     }
 
     .description-box{
-        margin-top: 80px;
+        margin-top: 5rem;
     }
 
 
     .mt-15{
-        margin-top: 15px;
+        margin-top: 0.9375rem;
     }
 
     .hr{
-        margin-top: 95px;
-        height: 1px;
+        margin-top: 5.9375rem;
+        height: 0.0625rem;
         background: #696969;
     }
 
     .socials{
-        margin-top: 35px;
-        margin-bottom: 35px;
+        margin-top: 2.1875rem;
+        margin-bottom: 2.1875rem;
         a{
-            margin-right: 14px;
+            margin-right: 0.875rem;
             &:hover{
                 text-decoration: none;
             }
@@ -402,15 +402,15 @@ a.button {
             color: #7f7f7f;
             font-size: 1rem;
             line-height: 1.3125rem;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.02rem;
         }
     }
 
     .copyrights{
-        margin-top: 40px;
+        margin-top: 2.5rem;
         color: #5f5f5f;
         font-size: 0.8125rem;
         line-height: 0.875rem;
-        letter-spacing: -0.006em;
+        letter-spacing: -0.006rem;
     }
 }

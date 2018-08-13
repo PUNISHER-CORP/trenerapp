@@ -6,7 +6,7 @@
   .description-box {
     margin-left: 0 !important;
     text-align: center;
-    margin-top: 150px !important;
+    margin-top: 9.375rem !important;
     max-width: 100% !important; }
     .description-box .title {
       max-width: 100% !important;
@@ -14,13 +14,13 @@
       line-height: 2.3rem !important; }
     .description-box .text {
       max-width: 100% !important;
-      margin-top: 5px !important;
+      margin-top: 0.3125rem !important;
       font-size: 0.8rem !important; }
   #header {
     background-size: 120% 100% !important;
     background-position: left center !important; }
     #header .description-box {
-      margin-top: 220px !important; }
+      margin-top: 13.75rem !important; }
   #how_it_works .justify-content-between {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -28,17 +28,17 @@
   #how_it_works .rectangle {
     display: none; }
   #how_it_works .first-part .description-box {
-    margin-top: 70px !important; }
+    margin-top: 4.375rem !important; }
   #how_it_works .image-box {
-    margin-top: 80px;
+    margin-top: 5rem;
     text-align: center; }
   #how_it_works .second-part {
     margin-top: 0 !important; }
     #how_it_works .second-part .description-box {
-      padding-left: 0px !important;
-      margin-top: 70px !important; }
+      padding-left: 0rem !important;
+      margin-top: 4.375rem !important; }
     #how_it_works .second-part .image-box {
-      max-width: 306px;
+      max-width: 19.125rem;
       margin-right: auto;
       margin-left: auto; }
   #progress {

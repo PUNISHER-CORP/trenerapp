@@ -1,41 +1,41 @@
 
 #header_subscription, #header_success {
-  height: 335px;
+  height: 20.9375rem;
   background: #CCFF00; }
   #header_subscription .logo-box .logo-description, #header_success .logo-box .logo-description {
     color: #000;
     opacity: 0.5; }
   #header_subscription .header-title-box, #header_success .header-title-box {
-    margin-top: 105px;
-    max-width: 400px; }
+    margin-top: 6.5625rem;
+    max-width: 25rem; }
     #header_subscription .header-title-box .title, #header_success .header-title-box .title {
       color: #000;
       font-size: 3rem;
       line-height: 3.1875rem;
-      letter-spacing: 0.012em;
+      letter-spacing: 0.012rem;
       font-family: 'Roboto-bold'; }
     #header_subscription .header-title-box .description, #header_success .header-title-box .description {
-      margin-top: 8px;
+      margin-top: 0.5rem;
       color: #000;
       opacity: 0.5;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.02rem;
       font-size: 1rem; }
 
 #content {
   background: #fff;
-  height: 480px; }
+  height: 30rem; }
   #content .pl-none {
     padding-right: 0; }
   #content form {
-    margin-top: 45px;
-    max-width: 430px; }
+    margin-top: 2.8125rem;
+    max-width: 26.875rem; }
     #content form .form-control {
-      padding: 9px 20px;
-      height: 45px;
-      border-radius: 8px;
+      padding: 0.5625rem 1.25rem;
+      height: 2.8125rem;
+      border-radius: 0.5rem;
       border-color: #ADADAD;
       color: #222326;
-      letter-spacing: 0.02em; }
+      letter-spacing: 0.02rem; }
       #content form .form-control::-webkit-input-placeholder {
         color: #222326; }
       #content form .form-control:-ms-input-placeholder {
@@ -45,45 +45,45 @@
       #content form .form-control::placeholder {
         color: #222326; }
     #content form label {
-      margin-top: 10px; }
+      margin-top: 0.625rem; }
       #content form label .checkbox {
         display: none; }
       #content form label .checkbox-custom {
         position: relative;
-        top: -1px;
-        width: 24px;
-        height: 24px;
-        border: 1px solid #ADADAD;
-        border-radius: 4px; }
+        top: -0.0625rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 0.0625rem solid #ADADAD;
+        border-radius: 0.25rem; }
       #content form label .checkbox-custom, #content form label .label {
         cursor: pointer;
         display: inline-block; }
       #content form label .label {
-        max-width: 390px;
+        max-width: 24.375rem;
         color: #4c4c4c;
         font-size: 0.75rem;
         line-height: 0.9375rem;
-        letter-spacing: 0.02em; }
+        letter-spacing: 0.02rem; }
       #content form label .checkbox:checked + .checkbox-custom::before {
         content: "✔";
         display: block;
         position: absolute;
-        left: 3px;
-        top: -2px;
+        left: 0.1875rem;
+        top: -0.125rem;
         font-size: 1.1rem; }
     #content form .button {
       cursor: pointer;
-      margin-top: 40px;
+      margin-top: 2.5rem;
       background: #CCFF00;
       display: block;
-      padding: 12px 44px;
+      padding: 0.75rem 2.75rem;
       font-family: 'Roboto-bold';
       font-size: 1.125rem;
       line-height: 1.3125rem;
-      -webkit-box-shadow: 0px 0.5px 0px #000000;
-              box-shadow: 0px 0.5px 0px #000000;
-      border-radius: 10px;
+      -webkit-box-shadow: 0 0.03125rem 0 #000000;
+              box-shadow: 0 0.03125rem 0 #000000;
+      border-radius: 0.625rem;
       border: none; }
 
 .footer_subscription {
-  height: 270px !important; }
+  height: 16.875rem !important; }

@@ -9,8 +9,8 @@ a.button {
   background: #CCFF00;
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  padding: 15px 23px;
-  border-radius: 10px; }
+  padding: 0.9375rem 1.4375rem;
+  border-radius: 0.625rem; }
   a.button:hover {
     text-decoration: none;
     color: #363636; }
@@ -22,7 +22,7 @@ a.button {
   z-index: 2; }
 
 #header .logo-box, #header_subscription .logo-box, #header_success .logo-box {
-  margin-top: 28px;
+  margin-top: 1.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,18 +32,18 @@ a.button {
   #header .logo-box .logo, #header_subscription .logo-box .logo, #header_success .logo-box .logo {
     cursor: pointer; }
   #header .logo-box .br-r, #header_subscription .logo-box .br-r, #header_success .logo-box .br-r {
-    height: 40px;
+    height: 2.5rem;
     background: #757575;
-    width: 1px;
-    margin-right: 15px;
-    margin-left: 15px; }
+    width: 0.0625rem;
+    margin-right: 0.9375rem;
+    margin-left: 0.9375rem; }
   #header .logo-box .logo-description, #header_subscription .logo-box .logo-description, #header_success .logo-box .logo-description {
     font-size: 0.75rem;
     line-height: 0.8125rem;
-    letter-spacing: 0.025em; }
+    letter-spacing: 0.025rem; }
 
 #header .description-box, #footer .description-box {
-  margin-top: 111px; }
+  margin-top: 6.9375rem; }
   #header .description-box .title, #footer .description-box .title {
     color: #fff;
     font-family: 'Roboto-bold';
@@ -51,104 +51,104 @@ a.button {
     line-height: 3.8125rem;
     letter-spacing: normal; }
   #header .description-box .text, #footer .description-box .text {
-    margin-top: 17px;
-    margin-bottom: 40px;
+    margin-top: 1.0625rem;
+    margin-bottom: 2.5rem;
     max-width: 430px;
     color: #969696;
     line-height: 1.1875rem;
-    letter-spacing: 0.015em; }
+    letter-spacing: 0.015rem; }
 
 #header {
   background: url("../images/header_bg.png") no-repeat #000;
   background-size: 100%;
-  height: 500px; }
+  height: 31.25rem; }
   #header .logo-box .logo-description {
     color: #9B9B9B; }
   #header .description-box {
     max-width: 430px; }
 
 #how_it_works .description-box, #progress .description-box, #without_calls_and_sms .description-box, #motivation .description-box {
-  margin-top: 117px; }
+  margin-top: 7.3125rem; }
   #how_it_works .description-box .title, #progress .description-box .title, #without_calls_and_sms .description-box .title, #motivation .description-box .title {
     color: #000;
     font-family: 'Roboto-bold';
     font-size: 3rem;
     line-height: 3.1875rem;
-    letter-spacing: 0.012em; }
+    letter-spacing: 0.012rem; }
   #how_it_works .description-box .text, #progress .description-box .text, #without_calls_and_sms .description-box .text, #motivation .description-box .text {
     max-width: 375px;
-    margin-top: 14px;
-    margin-bottom: 40px;
+    margin-top: 0.875rem;
+    margin-bottom: 2.5rem;
     color: #808080;
     font-size: 1rem;
     line-height: 1.1875rem;
-    letter-spacing: 0.01em; }
+    letter-spacing: 0.01rem; }
   #how_it_works .description-box a.button, #progress .description-box a.button, #without_calls_and_sms .description-box a.button, #motivation .description-box a.button {
-    padding: 10px 20px;
-    -webkit-box-shadow: 0px 0.5px 0px #000000;
-            box-shadow: 0px 0.5px 0px #000000; }
+    padding: 0.625rem 1.25rem;
+    -webkit-box-shadow: 0rem 0.03125rem 0rem #000000;
+            box-shadow: 0rem 0.03125rem 0rem #000000; }
 
 #how_it_works .first-part .image-box {
-  margin-top: 75px; }
+  margin-top: 4.6875rem; }
   #how_it_works .first-part .image-box .author {
-    margin-top: 13px; }
+    margin-top: 0.8125rem; }
     #how_it_works .first-part .image-box .author img {
-      width: 23px;
-      height: 23px; }
+      width: 1.4375rem;
+      height: 1.4375rem; }
     #how_it_works .first-part .image-box .author .name {
       font-family: 'Roboto-bold';
-      margin-left: 6px;
+      margin-left: 0.375rem;
       font-size: 0.875rem;
-      letter-spacing: 0.009em;
+      letter-spacing: 0.009rem;
       line-height: 0.900rem;
       color: #000; }
 
 #how_it_works .rectangle {
-  margin-top: -208px;
+  margin-top: -13rem;
   width: 100%;
-  height: 600px;
+  height: 37.5rem;
   background: #CCFF00;
   -webkit-clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%);
           clip-path: polygon(0 50%, 100% 0%, 100% 50%, 0 100%); }
 
 #how_it_works .second-part {
-  margin-top: -265px;
-  margin-bottom: 115px; }
+  margin-top: -16.5625rem;
+  margin-bottom: 7.1875rem; }
   #how_it_works .second-part .image-box {
     position: relative; }
     #how_it_works .second-part .image-box img {
-      width: 306px;
-      height: 543px;
-      border: 1px solid #DDDDDD; }
+      width: 19.125rem;
+      height: 33.9375rem;
+      border: 0.0625rem solid #DDDDDD; }
     #how_it_works .second-part .image-box .slider {
       position: absolute;
       top: 0;
-      left: 3px;
-      width: 300px; }
+      left: 0.1875rem;
+      width: 18.75rem; }
       #how_it_works .second-part .image-box .slider .slider-nav {
         position: relative;
-        top: 145px;
+        top: 9.0625rem;
         text-align: center;
         color: #9b9b9b; }
         #how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link {
           font-size: 0.70rem;
           font-family: 'Roboto-bold';
           text-transform: uppercase;
-          margin-right: 12px;
+          margin-right: 0.75rem;
           display: inline-block; }
           #how_it_works .second-part .image-box .slider .slider-nav p.slider-nav-link:hover {
             text-decoration: none;
             cursor: pointer;
             color: #000; }
         #how_it_works .second-part .image-box .slider .slider-nav .active {
-          border-bottom: 2px solid #000;
+          border-bottom: 0.125rem solid #000;
           color: #000; }
       #how_it_works .second-part .image-box .slider .slides-box {
-        height: 360px;
+        height: 22.5rem;
         width: 100%;
         background: #fff;
         position: relative;
-        top: 140px;
+        top: 8.75rem;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -160,39 +160,39 @@ a.button {
             flex-wrap: nowrap;
         overflow: hidden; }
         #how_it_works .second-part .image-box .slider .slides-box .slide img {
-          width: 300px;
+          width: 18.75rem;
           height: 100%;
           border: none; }
   #how_it_works .second-part .description-box {
-    margin-top: 200px;
-    padding-left: 30px; }
+    margin-top: 12.5rem;
+    padding-left: 1.875rem; }
     #how_it_works .second-part .description-box .text {
       max-width: 410px; }
 
 #progress {
   background-color: #000;
   background: url(../images/progress-bg.png) no-repeat;
-  height: 500px; }
+  height: 31.25rem; }
   #progress .description-box {
-    margin-top: 145px; }
+    margin-top: 9.0625rem; }
     #progress .description-box .title {
       color: #fff; }
 
 #without_calls_and_sms {
-  height: 500px; }
+  height: 31.25rem; }
   #without_calls_and_sms .container, #without_calls_and_sms .row {
     height: 100%; }
   #without_calls_and_sms .image-box img {
-    width: 391px;
-    height: 293px; }
+    width: 24.4375rem;
+    height: 18.3125rem; }
   #without_calls_and_sms .description-box {
     margin-top: 0;
-    margin-left: 26px; }
+    margin-left: 1.625rem; }
     #without_calls_and_sms .description-box .text {
       max-width: 475px; }
 
 #motivation {
-  height: 500px;
+  height: 31.25rem;
   background: url(../images/motivation-bg.png); }
   #motivation .container, #motivation .row {
     height: 100%; }
@@ -202,43 +202,43 @@ a.button {
       color: #fff; }
 
 #coaches {
-  height: 460px; }
+  height: 28.75rem; }
   #coaches .container, #coaches .row {
     height: 100%; }
   #coaches .owl-carousel {
-    margin-top: 70px; }
+    margin-top: 4.375rem; }
   #coaches .card {
-    max-width: 560px;
+    max-width: 35rem;
     text-align: center;
     border: none; }
     #coaches .card .photo {
-      width: 100px;
-      height: 100px;
+      width: 6.25rem;
+      height: 6.25rem;
       margin: 0 auto; }
       #coaches .card .photo img {
         border-radius: 50%; }
     #coaches .card .name {
-      margin-top: 15px;
+      margin-top: 0.9375rem;
       color: #000;
       font-family: 'Roboto-bold';
       font-size: 1.25rem;
       line-height: 1.3125rem;
-      letter-spacing: 0.019em; }
+      letter-spacing: 0.019rem; }
     #coaches .card .who, #coaches .card a.profile {
-      margin-top: 5px;
+      margin-top: 0.3125rem;
       color: #a7a7a8;
       font-size: 0.8125rem;
       line-height: 0.875rem;
-      letter-spacing: 0.020em; }
+      letter-spacing: 0.020rem; }
     #coaches .card .about {
-      margin: 14px auto 32px auto;
+      margin: 0.875rem auto 2rem auto;
       max-width: 343px;
       color: #808080;
       font-size: 0.875rem;
       line-height: 1rem;
-      letter-spacing: 0.01em; }
+      letter-spacing: 0.01rem; }
     #coaches .card a.profile {
-      border-bottom: 1px solid #a7a7a8;
+      border-bottom: 0.0625rem solid #a7a7a8;
       max-width: 170px;
       margin-left: auto;
       margin-right: auto; }
@@ -248,33 +248,33 @@ a.button {
         text-decoration: none; }
 
 #footer {
-  height: 700px;
+  height: 43.75rem;
   background: #000; }
   #footer .container {
     height: 100%; }
   #footer .description-box {
-    margin-top: 80px; }
+    margin-top: 5rem; }
   #footer .mt-15 {
-    margin-top: 15px; }
+    margin-top: 0.9375rem; }
   #footer .hr {
-    margin-top: 95px;
-    height: 1px;
+    margin-top: 5.9375rem;
+    height: 0.0625rem;
     background: #696969; }
   #footer .socials {
-    margin-top: 35px;
-    margin-bottom: 35px; }
+    margin-top: 2.1875rem;
+    margin-bottom: 2.1875rem; }
     #footer .socials a {
-      margin-right: 14px; }
+      margin-right: 0.875rem; }
       #footer .socials a:hover {
         text-decoration: none; }
   #footer .links a {
     color: #7f7f7f;
     font-size: 1rem;
     line-height: 1.3125rem;
-    letter-spacing: 0.02em; }
+    letter-spacing: 0.02rem; }
   #footer .copyrights {
-    margin-top: 40px;
+    margin-top: 2.5rem;
     color: #5f5f5f;
     font-size: 0.8125rem;
     line-height: 0.875rem;
-    letter-spacing: -0.006em; }
+    letter-spacing: -0.006rem; }

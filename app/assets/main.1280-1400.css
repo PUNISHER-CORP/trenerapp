@@ -5,45 +5,45 @@
             justify-content: center; }
   #header {
     background-size: 120% !important;
-    height: 431px !important; }
+    height: 26.9375rem !important; }
     #header .description-box {
-      margin-top: 70px !important;
-      max-width: 430px; }
+      margin-top: 4.375rem !important;
+      max-width: 26.875rem; }
   #how_it_works .first-part .description-box {
-    margin-left: 86px; }
+    margin-left: 5.375rem; }
     #how_it_works .first-part .description-box .title {
-      width: 460px; }
+      width: 28.75rem; }
   #how_it_works .rectangle {
     -webkit-clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
             clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
-    height: 500px !important;
-    margin-top: -140px !important; }
+    height: 31.25rem !important;
+    margin-top: -8.75rem !important; }
   #how_it_works .second-part {
-    margin-top: -230px !important; }
+    margin-top: -14.375rem !important; }
     #how_it_works .second-part .image-box {
-      margin-left: 86px; }
+      margin-left: 5.375rem; }
   #progress {
     background-position: center !important; }
     #progress .description-box {
-      margin-left: 86px; }
+      margin-left: 5.375rem; }
   #without_calls_and_sms .image-box img {
-    width: 306px !important;
-    height: 250px !important;
-    margin-left: 86px; }
+    width: 19.125rem !important;
+    height: 15.625rem !important;
+    margin-left: 5.375rem; }
   #without_calls_and_sms .description-box .text {
-    max-width: 440px !important; }
+    max-width: 27.5rem !important; }
   #motivation {
-    height: 500px !important;
+    height: 31.25rem !important;
     background-position: right center !important;
     background-size: 125% 100% !important;
     background-repeat: no-repeat !important; }
     #motivation .description-box {
-      margin-left: 86px; }
+      margin-left: 5.375rem; }
   #footer .description-box {
-    margin-left: 86px; }
+    margin-left: 5.375rem; }
   #footer .socials {
-    margin-left: 93px; }
+    margin-left: 5.8125rem; }
   #footer .links-box {
-    margin-left: 93px; }
+    margin-left: 5.8125rem; }
   #footer .copyrights {
-    margin-left: 93px; } }
+    margin-left: 5.8125rem; } }

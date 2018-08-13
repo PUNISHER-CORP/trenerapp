@@ -1,12 +1,12 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
     .description-box{
-        padding-left: 9px !important;
-        padding-right: 9px !important;
+        padding-left: 0.5625rem !important;
+        padding-right: 0.5625rem !important;
         margin-left: 0 !important;
         a.button{
-            padding-top: 11px !important;
-            padding-bottom: 11px !important;
+            padding-top: 0.6875rem !important;
+            padding-bottom: 0.6875rem !important;
             padding-left: 0 !important;
             padding-right: 0 !important;
             display: block;
@@ -21,26 +21,26 @@
             .title{
                 font-size: 1.4375rem !important;
                 line-height: 1.5rem !important;
-                letter-spacing: 0.019em;
+                letter-spacing: 0.019rem;
             }
 
             .text{
                 font-size: 0.875rem !important;
                 line-height: 1rem !important;
-                letter-spacing: 0.01em;
-                margin-bottom: 18px !important;
+                letter-spacing: 0.01rem;
+                margin-bottom: 1.125rem !important;
             }
         }
     }
 
     #header{
         background: url(../images/header_bg-small.png) no-repeat !important;
-        height: 525px !important;
+        height: 32.8125rem !important;
         background-size:  cover !important;
 
         .logo-box{
-            padding-left: 9px;
-            margin-top: 23px !important;
+            padding-left: 0.5625rem;
+            margin-top: 1.4375rem !important;
             
             .br-r, .logo-description{
                 display: none;
@@ -48,13 +48,13 @@
             
             .logo{
                 img{
-                    width: 150px;
+                    width: 9.375rem;
                 }
             }
         }
 
         .description-box{
-            margin-top: 200px !important;
+            margin-top: 12.5rem !important;
             
             .title{
                 font-size: 2.875rem !important;
@@ -62,12 +62,12 @@
             }
 
             .text{
-                margin-top: 10px !important;
-                margin-bottom: 26px !important;
+                margin-top: 0.625rem !important;
+                margin-bottom: 1.625rem !important;
                 font-size: 1rem !important;
                 line-height: 1.1875rem !important;
-                max-width: 285px !important;
-                letter-spacing: 0.040em !important;
+                max-width: 17.8125rem !important;
+                letter-spacing: 0.040rem !important;
             }
 
         }
@@ -85,33 +85,33 @@
         .first-part{
 
             .description-box{
-                margin-top: 42px !important;
+                margin-top: 2.625rem !important;
             }
 
             .image-box{
-                margin-top: 40px !important;
+                margin-top: 2.5rem !important;
 
                 img{
-                    max-width: 325px !important;
+                    max-width: 20.3125rem !important;
                 }
 
                 .author{
                     .name{
                         font-size: 0.625rem !important;
                         line-height: 0.6875rem !important;
-                        letter-spacing: 0.019em !important;
+                        letter-spacing: 0.019rem !important;
                     }
                     img{
-                        width: 17px !important;
-                        height: 17px !important;
+                        width: 1.0625rem !important;
+                        height: 1.0625rem !important;
                     }
                 }
             }
         }
 
         .second-part{
-            margin-top: 57px !important;
-            margin-bottom: 55px !important;
+            margin-top: 3.5625rem !important;
+            margin-bottom: 3.4375rem !important;
 
             .image-box{
                 margin-top: 0 !important;
@@ -122,22 +122,22 @@
 
                 .slider{
                     max-width: 247px !important;
-                    height: 438px;
-                    width: 241px !important;
+                    height: 27.375rem;
+                    width: 15.0625rem !important;
 
                     .slider-nav{
-                        top: 118px !important;
+                        top: 7.375rem !important;
 
                         p.slider-nav-link{
                             font-size: 0.6rem !important;
-                            margin-right: 6px !important;
+                            margin-right: 0.375rem !important;
                         }
                     }
 
                     .slides-box{
-                        height: 274px !important;
-                        width: 241px !important;
-                        top: 122px !important;
+                        height: 17.125rem !important;
+                        width: 15.0625rem !important;
+                        top: 7.625rem !important;
                         .slide{
                             img{
                                 height: 100% !important;
@@ -146,34 +146,34 @@
                     }
                 }
                 img{
-                    border: 1px solid #DDDDDD;
-                    width: 247px !important;
-                    height: 438px !important;
+                    border: 0.0625rem solid #DDDDDD;
+                    width: 15.4375rem !important;
+                    height: 27.375rem !important;
                 }
             }
 
             .description-box{
-                margin-top: 40px !important;
+                margin-top: 2.5rem !important;
             }
         }
     }
 
     #progress{
-        height: 525px !important;
+        height: 32.8125rem !important;
         background: url(../images/progress-bg-xs.png) no-repeat !important;
         background-size: cover !important;
 
         .description-box{
-            margin-top: 320px !important;
+            margin-top: 20rem !important;
 
             .text{
-                margin-bottom: 25px !important;
+                margin-bottom: 1.5625rem !important;
             }
         }
     }
 
     #without_calls_and_sms{
-        height: 545px !important;
+        height: 34.0625rem !important;
 
         .align-items-center{
             align-items: flex-start !important;
@@ -182,46 +182,46 @@
         .image-box{
             margin-left: auto;
             margin-right: auto;
-            margin-top: 44px;
+            margin-top: 2.75rem;
             img{
-                max-width: 325px !important;
-                max-height: 240px !important;
+                max-width: 20.3125rem !important;
+                max-height: 15rem !important;
             }
         }
 
         .description-box{
-            margin-top: -15px !important;
+            margin-top: -0.9375rem !important;
         }
     }
 
     #motivation{
-        height: 390px !important;
+        height: 24.375rem !important;
         background: url(../images/motivation-bg-xs.png) no-repeat !important;
         background-size:  cover !important;
 
         .description-box{
-            margin-top: 145px !important;
+            margin-top: 9.0625rem !important;
 
             .text{
-                margin-top: 15px !important;
-                margin-bottom: 26px !important;
+                margin-top: 0.9375rem !important;
+                margin-bottom: 1.625rem !important;
             }
         }
     }
 
     #coaches{
-        height: 400px !important;
+        height: 25rem !important;
 
         .owl-carousel{
-            margin-top: 50px !important;
+            margin-top: 3.125rem !important;
         }
 
         .owl-dots{
-            margin-top: 38px !important;
+            margin-top: 2.375rem !important;
         }
 
         .card{
-            padding: 0 9px;
+            padding: 0 0.5625rem;
         }
     }
 
@@ -229,7 +229,7 @@
         height: 100% !important;
 
         .description-box{
-            margin-top: 36px !important;
+            margin-top: 2.25rem !important;
 
             .title{
                 font-size: 2.5rem !important;
@@ -237,31 +237,31 @@
             }
 
             .text{
-                margin-bottom: 24px !important;
+                margin-bottom: 1.5rem !important;
             }
         }
 
         .mt-15{
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 1.5625rem;
+            padding-right: 1.5625rem;
         }
 
         .hr{
-            margin-top: 25px !important;
+            margin-top: 1.5625rem !important;
             
         }
 
         .socials{
-            margin-bottom: 32px !important;
+            margin-bottom: 2rem !important;
         }
 
         .socials, .links-box, .copyrights{
-            padding-left: 9px;
-            padding-right: 9px;
+            padding-left: 0.5625rem;
+            padding-right: 0.5625rem;
         }
 
         .copyrights{
-            margin-bottom: 17px;
+            margin-bottom: 1.0625rem;
         }
     }
 }
@@ -290,21 +290,16 @@
             
             .image-box{
                 img{
-                    max-width: 290px !important ;
+                    max-width: 18.125rem !important ;
                 }
             }
-        }
-
-        .second-part{
-            
-            
         }
     }
 
     #without_calls_and_sms{
         .image-box{
             img{
-                max-width: 290px !important;
+                max-width: 18.125rem !important;
             }
         }
     }
