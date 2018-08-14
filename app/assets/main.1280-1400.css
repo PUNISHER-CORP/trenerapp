@@ -18,6 +18,10 @@
             clip-path: polygon(0 41%, 100% 1%, 100% 57%, 0 96%) !important;
     height: 31.25rem !important;
     margin-top: -8.75rem !important; }
+  #how_it_works .rectangle-edge {
+    background-size: cover !important;
+    height: 35rem !important;
+    background-position-x: -110px !important; }
   #how_it_works .second-part {
     margin-top: -14.375rem !important; }
     #how_it_works .second-part .image-box {

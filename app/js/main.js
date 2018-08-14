@@ -1,5 +1,15 @@
-
 $( document ).ready(function() {
+    doc_w = $(document).width();
+   // detect IE8 and above, and edge
+if (/Edge/.test(navigator.userAgent)) {
+    $('.rectangle').css('background', '#fff').html('<div class="rectangle-edge"></div>');
+
+    if(doc_w < 1400 && doc_w > 1024){
+        $('.second-part').addClass('margin-top');
+    }
+    
+}
+
     $('#owl-carousel2').owlCarousel({
         loop:true,
         margin:10,

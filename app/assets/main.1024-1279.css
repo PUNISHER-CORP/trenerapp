@@ -46,6 +46,9 @@
         margin-bottom: 0.3125rem; }
   #how_it_works .rectangle {
     height: 30rem !important; }
+  #how_it_works .rectangle-edge {
+    height: 30rem !important;
+    background-size: cover !important; }
   #how_it_works .justify-content-between {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
